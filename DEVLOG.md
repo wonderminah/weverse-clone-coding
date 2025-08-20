@@ -71,9 +71,11 @@ Port 5173 is in use, trying another one...
 // 3. 아티스트 > Artist 화면 (서브 네비에서 'Artist'에 해당)
 3-1. "/{아티스트명}/artist" # 공통헤더 + 서브네비 + 아티스트 포스트 컨텐츠
 3-2. "/{아티스트명}/artist/{변수ID}" # "/{아티스트명}/artist"에서 아티스트 포스트 클릭하면 아티스트 포스트가 모달로 표시됨
-3-3. "/{아티스트명}/artist/moment/{변수ID}/post/{변수ID}" # 공통헤더 + 모먼트 컨텐츠 (서브네비 표시안됨)
-3-4. "/{아티스트명}/artist/profile" # 공통헤더 + 서브네비 + 아티스트 프로필 컨텐츠
-3-5. "/{아티스트명}/artist/profile/{인물ID}" # 공통헤더 + 서브네비 + 아티스트 개인 프로필 컨텐츠
+
+// 그 외
+3-4. "/{아티스트명}/profile" # 공통헤더 + 서브네비 + 아티스트 프로필 컨텐츠
+3-5. "/{아티스트명}/profile/{인물ID}" # 공통헤더 + 서브네비 + 아티스트 개인 프로필 컨텐츠
+3-3. "/{아티스트명}/moment/{변수ID}/post/{변수ID}" # 공통헤더 + 모먼트 컨텐츠 (서브네비 표시안됨)
 
 // 2. 와 3. 에서 공유하는 컴포넌트가 있고, 그 컴포넌트에 Digital Membership 버튼이 있음. 해당 버튼 클릭 시 아래 모달 표시
 "/{아티스트명}/digitalmembership" # 디지털 멤버십 가입 모달 표시
@@ -180,5 +182,92 @@ react-router-dom 을 이용한다.
 
 ```bash
 npm install react-router-dom
+```
+
+### 스텁 라우팅
+
+테스트 용으로 URL에 따라 의도대로 불리는지 테스팅 용이다. 실제 컴포넌트는 만들지 않는다.
+URL 접속해보면 <h1>태그와 <h2> 태그대로 내용이 표시되는지 확인할 수 있다.
+
+```tsx
+import { BrowserRouter, Routes, Route, Navigate, useParams } from "react-router-dom";
+
+function Stub({ name }: { name: string }) {
+  const { artistName, fanPostId, artistPostId, momentId, artistMomentId, memberId } = useParams(); // URL에서 아티스트명 추출
+  console.log(`${name} rendered for artist: ${artistName}`);
+  return (
+    <div>
+      <h1>
+        {name} 
+      </h1>
+      <h2>(artistName: {artistName})</h2>
+      <h2>(fanPostId: {fanPostId})</h2>
+      <h2>(artistPostId: {artistPostId})</h2>
+      <h2>(momentId: {momentId})</h2>
+      <h2>(artistMomentId: {artistMomentId})</h2>
+      <h2>(memberId: {memberId})</h2>
+    </div>
+  );
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        {/* 홈 */}
+        <Route path="/" element={<h1>Home</h1>} />
+
+        {/* 아티스트 공통 */}
+        <Route path=":artistName">
+          <Route index element={<Navigate to="feed" replace />} />
+
+          {/* Artistpedia */}
+          <Route path="artistpedia" element={<Stub name="ArtistPediaPage" />} />
+          <Route path="artistpedia/artistinfo" element={<Stub name="ArtistInfoModal" />} />
+
+          {/* Fan */}
+          <Route path="feed" element={<Stub name="FeedPage" />} />
+          <Route path="fanpost/:fanPostId" element={<Stub name="FanPostModal" />} />
+
+          {/* Artist */}
+          <Route path="artist" element={<Stub name="ArtistPage" />} />
+          <Route path="artist/:artistPostId" element={<Stub name="ArtistPostModal" />} />
+          
+          {/* 그 외 */}
+          <Route path="moment/:momentId/post/:artistMomentId" element={<Stub name="MomentPostPage" />}/>
+          <Route path="profile" element={<Stub name="ArtistProfilePage" />} />
+          <Route path="profile/:memberId" element={<Stub name="ArtistProfileMemberPage" />}/>
+
+          {/* Digital Membership */}
+          <Route path="digitalmembership" element={<Stub name="DigitalMembershipModal" />}
+          />
+
+          {/* Media */}
+          <Route path="media">
+            <Route index element={<Stub name="MediaAllPage" />} />
+            <Route path="cont" element={<Stub name="MediaContPage" />} />
+            <Route path="new" element={<Stub name="MediaNewPage" />} />
+            <Route path="recommend" element={<Stub name="MediaRecommendPage" />} />
+            <Route path="membership" element={<Stub name="MediaMembershipPage" />} />
+            <Route path="all" element={<Stub name="MediaAllPage" />} />
+            <Route path=":mediaId" element={<Stub name="MediaDetailPage" />} />
+          </Route>
+
+          {/* Live */}
+          <Route path="live">
+            <Route index element={<Stub name="LiveIndexPage" />} />
+            <Route path=":liveId" element={<Stub name="LiveDetailPage" />} />
+          </Route>
+
+          {/* Notice */}
+          <Route path="notice/:noticeId" element={<Stub name="NoticePage" />} />
+        </Route>
+
+        {/* 404 */}
+        <Route path="*" element={<h1>404 Not Found</h1>} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
 ```
 
