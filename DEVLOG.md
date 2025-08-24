@@ -1,3 +1,10 @@
+# TODO LIST
+
+- [ ] https://weverse.io/
+  - [ ] HTML 태그 작성
+  - [ ] CSS 인라인 스타일 추가
+  - [ ] 
+
 # 20250820
 
 ## 프로젝트 생성
@@ -287,3 +294,6 @@ export default function App() {
    - Media 서브네비(Continue, Latest …)만 따로 있음
    - 그 안에서 탭 전환 시 `<Outlet />` 교체
 
+
+
+# 
