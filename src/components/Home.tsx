@@ -1,6 +1,7 @@
 import "../index.css";
 import { useState, useEffect, useRef, useCallback } from "react";
-import communityData from "../data/community.json";
+import communityData from "../data/communities.json";
+import recommendCommunitiesData from "../data/recommend-communities.json";
 
 // 커뮤니티 데이터 타입 정의
 interface Community {
@@ -64,65 +65,67 @@ function OptimizedImage({
 
 export default function Home() {
   const [communities, setCommunities] = useState<Community[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [page, setPage] = useState(1);
-  const [hasMore, setHasMore] = useState(true);
-  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const [recommendCommunities, setRecommendCommunities] = useState<Community[]>([]);
+  const [communitiesLoading, setCommunitiesLoading] = useState(true);
+  const [communitiesPage, setCommunitiesPage] = useState(1);
+  const [communitiesHasMore, setCommunitiesHasMore] = useState(true);
+  const [communitiesLoadingMore, setCommunitiesLoadingMore] = useState(false);
   const observer = useRef<IntersectionObserver>();
   const itemsPerPage = 12; // 한 번에 로드할 아이템 수
 
   // 추가 데이터 로드 함수
-  const loadMoreData = useCallback(() => {
-    if (isLoadingMore || !hasMore) return;
+  const loadMoreCommunitiesData = useCallback(() => {
+    if (communitiesLoadingMore || !communitiesHasMore) return;
     
-    setIsLoadingMore(true);
+    setCommunitiesLoadingMore(true);
     
     // 실제 API에서는 여기서 서버에 요청
     setTimeout(() => {
-      const startIndex = (page - 1) * itemsPerPage;
+      const startIndex = (communitiesPage - 1) * itemsPerPage;
       const endIndex = startIndex + itemsPerPage;
       const newCommunities = communityData.slice(startIndex, endIndex) as Community[];
       
       if (newCommunities.length > 0) {
         setCommunities(prev => [...prev, ...newCommunities]);
-        setPage(prev => prev + 1);
+        setCommunitiesPage(prev => prev + 1);
       } else {
-        setHasMore(false);
+        setCommunitiesHasMore(false);
       }
       
-      setIsLoadingMore(false);
+      setCommunitiesLoadingMore(false);
     }, 500); // 실제 API 호출 시에는 이 setTimeout 제거
-  }, [page, isLoadingMore, hasMore]);
+  }, [communitiesPage, communitiesLoadingMore, communitiesHasMore]);
 
   // 마지막 요소를 관찰하는 ref
   const lastElementRef = useCallback((node: HTMLLIElement) => {
-    if (isLoadingMore) return;
+    if (communitiesLoadingMore) return;
     
     if (observer.current) observer.current.disconnect();
     
     observer.current = new IntersectionObserver(entries => {
-      if (entries[0].isIntersecting && hasMore) {
-        loadMoreData();
+      if (entries[0].isIntersecting && communitiesHasMore) {
+        loadMoreCommunitiesData();
       }
     });
     
     if (node) observer.current.observe(node);
-  }, [isLoadingMore, hasMore, loadMoreData]);
+  }, [communitiesLoadingMore, communitiesHasMore, loadMoreCommunitiesData]);
 
   useEffect(() => {
     // 초기 데이터 로드
     try {
       const initialCommunities = communityData.slice(0, itemsPerPage);
       setCommunities(initialCommunities as Community[]);
-      setLoading(false);
-      setHasMore(communityData.length > itemsPerPage);
+      setRecommendCommunities(recommendCommunitiesData as Community[]);
+      setCommunitiesLoading(false);
+      setCommunitiesHasMore(communityData.length > itemsPerPage);
     } catch (error) {
       console.error("커뮤니티 데이터를 불러오는 중 오류가 발생했습니다:", error);
-      setLoading(false);
+      setCommunitiesLoading(false);
     }
   }, []);
 
-  if (loading) {
+  if (communitiesLoading) {
     return <div className="loading">커뮤니티를 불러오는 중...</div>;
   }
 
@@ -177,61 +180,25 @@ export default function Home() {
                 <h2 className="home__dm-title">DM with your Artist!</h2>
                 <div className="home__dm-content">
                   <ul className="home__dm-list">
-                    <li className="home__dm-item">
-                      <button className="home__dm-item-wrap" type="button">
-                        <span className="home__dm-item-img">
-                          <img src="https://phinf.wevpstatic.net/MjAyNTAyMTdfMjcx/MDAxNzM5NzU3NDUyNzM5.gD6O4HKPWsIiaajDbTfBXpyFRMPv7IUpMbW2rwfiJOAg.u5pM8fV0pnhZCyNSEsQS-c6v5Y1leq-RjbUGt4gyOGgg.JPEG/1a87be58-da5a-4a1a-8c9e-5b51e6a6978f.jpeg?type=s128" className="DirectMessageWeverseHomeView_image__OXMed" width="64" height="64" alt="andteam" />
-                        </span>
-                        <span className="home__dm-item-name">
-                          <a href="/&amp;TEAM/artistpedia" style={{ color: 'inherit', textDecoration: 'none' }}>&amp;TEAM</a>
-                        </span>
-                      </button>
-                    </li>
-                    <li className="home__dm-item">
-                      <button className="home__dm-item-wrap" type="button">
-                        <span className="home__dm-item-img">
-                          <img src="https://phinf.wevpstatic.net/MjAyNTA0MTBfMTYz/MDAxNzQ0Mjc2NzIzMzAz.06dOvTWGYcOOSDSFZ1SI84Cvc7JOnXSUiHGOGkpmrog.LDkL0XtpNz9PejAC6tp-6OgGpmY_NJBug7Nu2ERcKB8g.PNG/7d15cb52-3525-40d7-8ed6-0d53d6edf187.png?type=s128" className="DirectMessageWeverseHomeView_image__OXMed" width="64" height="64" alt="choisooho" />
-                        </span>
-                        <span className="home__dm-item-name">CHOI SOO HO</span>
-                      </button>
-                    </li>
-                    <li className="home__dm-item">
-                      <button className="home__dm-item-wrap" type="button">
-                        <span className="home__dm-item-img">
-                          <img src="https://phinf.wevpstatic.net/MjAyNDExMTNfNDUg/MDAxNzMxNTAzMzAwNjg0.ballu3_1KGOgiVa0Q_r_gzWXrwW7QnjJlAvxyFWb1F4g.uIIzrG_bZmEbwfXg9Uz9nbT4zRmdK6sY53vv94DJOpcg.JPEG/adcc1307-bc75-4169-930e-2c60171884ba.jpeg?type=s128" className="DirectMessageWeverseHomeView_image__OXMed" width="64" height="64" alt="kyuhyun" />
-                        </span>
-                        <span className="home__dm-item-name">KYUHYUN</span>
-                      </button>
-                    </li>
-                    <li className="home__dm-item">
-                      <button className="home__dm-item-wrap" type="button">
-                        <span className="home__dm-item-img">
-                          <img src="https://phinf.wevpstatic.net/MjAyNDEwMjZfMjI5/MDAxNzI5OTQ4MjIxNjAy.dXgfGUpxQsFxJ-dNS8g20xbd_HYwz9llPS1tPYj9PxQg.ssrm7KF14EQRsHniIH4iGK15TVjv0Mie2kjAUQJyvvIg.JPEG/259a3a5a-ca26-46b9-b069-a926e3ac81de.jpeg?type=s128" className="DirectMessageWeverseHomeView_image__OXMed" width="64" height="64" alt="classy" />
-                        </span>
-                        <span className="home__dm-item-name">CLASS:y</span>
-                      </button>
-                    </li>
-                    <li className="home__dm-item">
-                      <button className="home__dm-item-wrap" type="button">
-                        <span className="home__dm-item-img">
-                          <img src="https://phinf.wevpstatic.net/MjAyNTA3MjFfMjk2/MDAxNzUzMDg3ODk2Njgz.aG01bqnH3r55MgN9QfdOXfeSn3O1bWN2zXRGCh731tcg.YehqcwZGjAOzPD1ZMhXpcaaFpPXaBMa7a1eY85KqRgkg.JPEG/7e70c9a4-213a-4dd7-af66-b47c22d9e907.jpeg?type=s128" className="DirectMessageWeverseHomeView_image__OXMed" width="64" height="64" alt="sonnaeun" />
-                        </span>
-                        <span className="home__dm-item-name">SON NA EUN</span>
-                      </button>
-                    </li>
-                    <li className="home__dm-item">
-                      <button className="home__dm-item-wrap" type="button">
-                        <span className="home__dm-item-img">
-                          <img src="https://phinf.wevpstatic.net/MjAyNTA1MDJfMjc2/MDAxNzQ2MTc2NTU0ODA4.NeWru2VYhk1CwJy9915plBUNMlKHqb0X8GwawmBVvxUg.2S1aq9E6gXhm_d-eoI_ltbfyu-mxEiMxFtBpW_aqjaIg.PNG/365745ea-ea81-44c8-b3f2-7293e6e9700b.png?type=s128" className="DirectMessageWeverseHomeView_image__OXMed" width="64" height="64" alt="dazbee" />
-                        </span>
-                        <span className="home__dm-item-name">DAZBEE</span>
-                      </button>
-                    </li>
-                    <li className="home__dm-item">
-                      <button className="DirectMessageWeverseHomeResetButtonView_reset__E+KmU" type="button">
-                        <span className="blind">Reset</span>
-                      </button>
-                    </li>
+                                         {recommendCommunities.map((community, index) => (
+                       <li className="home__dm-item" key={community.communityId}>
+                         <button className="home__dm-item-wrap" type="button">
+                           <span className="home__dm-item-img">
+                             <img src={community.logoImage} className="DirectMessageWeverseHomeView_image__OXMed" width="64" height="64" alt={community.communityName} />
+                           </span>
+                           <span className="home__dm-item-name">
+                             <a href={`/${community.urlPath}/artistpedia`} style={{ color: 'inherit', textDecoration: 'none' }}>
+                               {community.communityName}
+                             </a>
+                           </span>
+                         </button>
+                       </li>
+                     ))}
+                     <li className="home__dm-item">
+                       <button className="DirectMessageWeverseHomeResetButtonView_reset__E+KmU" type="button">
+                         <span className="blind">Reset</span>
+                       </button>
+                     </li>
                   </ul>
                 </div>
               </div>
@@ -279,7 +246,7 @@ export default function Home() {
                            </a>
                          </li>
                        ))}
-                       {isLoadingMore && (
+                       {communitiesLoadingMore && (
                          <li className="home__community-item home__loading-item">
                            <div className="home__loading">
                              <p>더 많은 커뮤니티를 불러오는 중...</p>
@@ -287,7 +254,7 @@ export default function Home() {
                          </li>
                        )}
                        
-                       {!hasMore && communities.length > 0 && (
+                       {!communitiesHasMore && communities.length > 0 && (
                          <li className="home__community-item home__no-more-item">
                            <div className="home__no-more">
                              <p>모든 커뮤니티를 불러왔습니다.</p>
