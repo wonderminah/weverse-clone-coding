@@ -21,7 +21,7 @@ function OptimizedImage({
   className, 
   width, 
   height,
-  placeholder = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjA4IiBoZWlnaHQ9IjE3NyIgdmlld0JveD0iMCAwIDIwOCAxNzciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDgiIGhlaWdodD0iMTc3IiBmaWxsPSIjRjVGNUY1Ii8+CjxwYXRoIGQ9Ik0xMDQgODguNUw5NiA5Ni41TDg4IDg4LjVIMTA0WiIgZmlsbD0iI0NDQyIvPgo8L3N2Zz4K"
+  placeholder = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjA4IiBoZWlnaHQ9IjE3NyIgdmlld0JveD0iMCAwIDIwOCAxNzciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDgiIGhlaWdodD0iMTc3IiBmaWxsPSIjR0ZGRkZGIi8+Cjwvc3ZnPgo="
 }: { 
   src: string; 
   alt: string; 
@@ -113,7 +113,7 @@ export default function Home() {
     // 초기 데이터 로드
     try {
       const initialCommunities = communityData.slice(0, itemsPerPage);
-      setCommunities(initialCommunities);
+      setCommunities(initialCommunities as Community[]);
       setLoading(false);
       setHasMore(communityData.length > itemsPerPage);
     } catch (error) {
