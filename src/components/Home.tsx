@@ -236,42 +236,42 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="home__artist-slot">
-              <div className="home__artist-area">
+            <div className="home__community-slot">
+                            <div className="home__community-area">
                 <div className="home__inner">
-                  <h2 className="home__artist-title">Looking for new artists?</h2>
-                  <div className="home__artist-body">
-                    <ul className="home__artist-list">
-                                             {communities.map((community, index) => (
+                  <h2 className="home__community-title">Looking for new artists?</h2>
+                  <div className="home__community-body">
+                    <ul className="home__community-list">
+                       {communities.map((community, index) => (
                          <li
                            key={community.communityId}
-                           className="home__artist-item"
+                           className="home__community-item"
                            ref={index === communities.length - 1 ? lastElementRef : undefined}
                          >
-                           <a className="home__artist-link" href={`/${community.urlPath}/artistpedia`}>
-                             <div className="home__artist-cover-wrap">
+                           <a className="home__community-link" href={`/${community.urlPath}/artistpedia`}>
+                             <div className="home__community-cover-wrap">
                                <OptimizedImage
                                  src={community.homeHeaderImage}
                                  alt={community.communityName}
                                  width={208}
                                  height={177}
-                                 className="HomeArtistListSlotView_cover_img__a2krk"
+                                 className="HomeCommunityListSlotView_cover_img__a2krk"
                                />
                              </div>
-                             <div className="home__artist-thumb-wrap">
-                               <div className="home__artist-thumb-area">
+                             <div className="home__community-thumb-wrap">
+                               <div className="home__community-thumb-area">
                                  <OptimizedImage
                                    src={community.logoImage}
                                    alt={community.communityName}
                                    width={43}
                                    height={43}
-                                   className="home__artist-thumb-img"
+                                   className="home__community-thumb-img"
                                  />
                                </div>
                              </div>
-                             <div className="home__artist-text-wrap">
+                             <div className="home__community-text-wrap">
                                <div>
-                                 <strong className="home__artist-name">
+                                 <strong className="home__community-name">
                                    {community.communityName}
                                  </strong>
                                </div>
@@ -280,7 +280,7 @@ export default function Home() {
                          </li>
                        ))}
                        {isLoadingMore && (
-                         <li className="home__artist-item home__loading-item">
+                         <li className="home__community-item home__loading-item">
                            <div className="home__loading">
                              <p>더 많은 커뮤니티를 불러오는 중...</p>
                            </div>
@@ -288,7 +288,7 @@ export default function Home() {
                        )}
                        
                        {!hasMore && communities.length > 0 && (
-                         <li className="home__artist-item home__no-more-item">
+                         <li className="home__community-item home__no-more-item">
                            <div className="home__no-more">
                              <p>모든 커뮤니티를 불러왔습니다.</p>
                            </div>
