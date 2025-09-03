@@ -1,11 +1,8 @@
 import "../index.css";
-import Header from "./Header";
 
 export default function Home() {
   return (
-    <div>
-      <Header />
-
+    <>
       {/* 바디 */}
       <div className="body">
         <div className="home__container">
@@ -401,6 +398,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div >
+    </>
   );
 }
