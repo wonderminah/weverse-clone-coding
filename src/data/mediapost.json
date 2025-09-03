@@ -1,0 +1,331 @@
+{
+    "extension": {
+        "mediaInfo": {
+            "mediaType": "VOD",
+            "body": "어다 아픈데 없이 잘 지냈니?",
+            "title": "오랜만이야",
+            "chat": {
+                "availableActions": [
+                    "WRITE_CHAT_AFTER_SMS_VERIFICATION",
+                    "READ_CHAT"
+                ],
+                "myProfile": {
+                    "memberId": "7310a79537915ff71fb3746205f3eadb",
+                    "communityId": 38,
+                    "profileName": "PFUMGPAX",
+                    "profileType": "FAN",
+                    "hasMembership": false
+                },
+                "messageCount": 14372,
+                "loadRecentMessageCount": 0,
+                "chatType": "LIVE",
+                "chatId": "N1eddi",
+                "enable": false,
+                "artistMessages": {
+                    "paging": {},
+                    "data": [],
+                    "totalCount": 0
+                }
+            },
+            "thumbnail": {
+                "type": "EXTRACT",
+                "width": 362,
+                "height": 640,
+                "url": "https://phinf.wevpstatic.net/MjAyNTAyMTJfMjg2/MDAxNzM5MzYxMDIwMzg0.nZlJKUGMkjzjk5xIQrs_SnTKAXoi55tBCe0bNS4G5FIg.Vb4lQTZN1T3343_9dCHXAQXZGsPHHcfpq4M_VnFcgjMg.JPEG/thumb.jpg"
+            },
+            "exposeToMediaTab": false
+        },
+        "video": {
+            "videoId": 77499,
+            "type": "VOD",
+            "onAirStartAt": 1739358021000,
+            "paid": false,
+            "membershipOnly": false,
+            "screenOrientation": "PORTRAIT",
+            "thumb": "https://phinf.wevpstatic.net/MjAyNTAyMTJfMjg2/MDAxNzM5MzYxMDIwMzg0.nZlJKUGMkjzjk5xIQrs_SnTKAXoi55tBCe0bNS4G5FIg.Vb4lQTZN1T3343_9dCHXAQXZGsPHHcfpq4M_VnFcgjMg.JPEG/thumb.jpg",
+            "previewYn": false,
+            "playCount": 34313,
+            "likeCount": 389315,
+            "streamingCount": 0,
+            "serviceName": "weverse",
+            "serviceId": "2070",
+            "liveToVod": true,
+            "closedCaptioned": true,
+            "captionBadges": [
+                "CC"
+            ],
+            "enhanceModes": [
+                {
+                    "mode": "AUDIO_FILTER",
+                    "action": "USE_VIDEO_AUDIO_FILTER",
+                    "available": true
+                }
+            ],
+            "excludedEnhanceModes": [],
+            "infraVideoId": "9C8588A22076F791FD459C7C5F97885BFB1D",
+            "playTime": 2982,
+            "encodingStatus": "COMPLETE",
+            "pushYn": false,
+            "exposeWithPost": false,
+            "vodCaptions": [
+                {
+                    "detailType": "auto",
+                    "type": "auto",
+                    "lang": "en_US",
+                    "displayLanguage": "English"
+                },
+                {
+                    "detailType": "auto",
+                    "type": "auto",
+                    "lang": "th_TH",
+                    "displayLanguage": "ไทย"
+                },
+                {
+                    "detailType": "auto",
+                    "type": "auto",
+                    "lang": "zh_TW",
+                    "displayLanguage": "中文(繁體)"
+                },
+                {
+                    "detailType": "auto",
+                    "type": "auto",
+                    "lang": "ko_KR",
+                    "displayLanguage": "한국어"
+                },
+                {
+                    "detailType": "auto",
+                    "type": "auto",
+                    "lang": "zh_CN",
+                    "displayLanguage": "中文(简体)"
+                },
+                {
+                    "detailType": "auto",
+                    "type": "auto",
+                    "lang": "ja_JP",
+                    "displayLanguage": "日本語"
+                },
+                {
+                    "detailType": "auto",
+                    "type": "auto",
+                    "lang": "es_ES",
+                    "displayLanguage": "español"
+                },
+                {
+                    "detailType": "auto",
+                    "type": "auto",
+                    "lang": "id_ID",
+                    "displayLanguage": "Indonesia"
+                },
+                {
+                    "detailType": "auto",
+                    "type": "auto",
+                    "lang": "vi_VN",
+                    "displayLanguage": "Tiếng Việt"
+                },
+                {
+                    "detailType": "auto",
+                    "type": "auto",
+                    "lang": "it_IT",
+                    "displayLanguage": "italiano"
+                },
+                {
+                    "detailType": "auto",
+                    "type": "auto",
+                    "lang": "de_DE",
+                    "displayLanguage": "Deutsch"
+                },
+                {
+                    "detailType": "auto",
+                    "type": "auto",
+                    "lang": "ru_RU",
+                    "displayLanguage": "русский"
+                },
+                {
+                    "detailType": "auto",
+                    "type": "auto",
+                    "lang": "fr_FR",
+                    "displayLanguage": "français"
+                }
+            ]
+        }
+    },
+    "body": "어다 아픈데 없이 잘 지냈니?",
+    "title": "오랜만이야",
+    "publishedAt": 1739358021000,
+    "postType": "VIDEO",
+    "sectionType": "LIVE",
+    "availableActions": [
+        "BOOKMARK",
+        "READ_POST",
+        "USE_VIDEO_AUDIO_FILTER",
+        "USE_VIDEO_AUTO_GENERATED_CAPTION",
+        "USE_VIDEO_DOWNLOAD",
+        "USE_VIDEO_ENHANCED_TONE",
+        "USE_VIDEO_UPSCALE",
+        "WRITE_COMMENT",
+        "WRITE_EMOTION"
+    ],
+    "emotionCount": 351,
+    "commentCount": 72,
+    "postId": "0-155788625",
+    "membershipOnly": false,
+    "locked": false,
+    "hideFromArtist": false,
+    "exposeStatus": "EXPOSED",
+    "attachment": {},
+    "plainBody": "어다 아픈데 없이 잘 지냈니?",
+    "shareUrl": "https://weverse.io/winner/live/0-155788625",
+    "hasProduct": false,
+    "author": {
+        "memberId": "3ae9cc877db32203257f21329499164d",
+        "communityId": 38,
+        "joined": true,
+        "profileName": "유니",
+        "profileImageUrl": "https://phinf.wevpstatic.net/MjAyMjA3MDZfMjUy/MDAxNjU3MDg0OTEzMzc5.XdxOP68hhz3P7T7H8s_bkvm160Ydtjki26IV2cWIJg4g.gnYkYJ1impazJe-7kyg1BV6Jyykffs7Z0d1o-YVN-kUg.PNG/9be57df192174b509dddfc40e8c776d5884.png",
+        "memberJoinStatus": "JOIN_COMMUNITY",
+        "profileType": "ARTIST",
+        "artistOfficialProfile": {
+            "officialImageUrl": "https://phinf.wevpstatic.net/MjAyMjA3MDZfMjQ0/MDAxNjU3MDg0OTEzNDg2.EzTpaYX-guv9TOjN_GC_SIdnH8n9xcCdV98EVZSEDNsg.V2pB1CiR9vlKk0-HyIaNjaYQDj2G2NMfzV09r-PKY9Ig.PNG/a329c74c46fd4e29aad9e9f3a3f669b7911.png",
+            "officialName": "YOON ",
+            "birthday": {
+                "dateString": "Jan 21, 1994",
+                "bday": false
+            }
+        },
+        "hasMembership": false,
+        "hasOfficialMark": true,
+        "profileSpace": [
+            "ACCESSIBLE"
+        ],
+        "profileSpaceStatus": "ACCESSIBLE",
+        "myProfile": false,
+        "badges": [
+            "OFFICIAL"
+        ]
+    },
+    "recommendProductSlot": {
+        "products": {
+            "data": [
+                {
+                    "saleId": 42980,
+                    "name": "[IN OUR CIRCLE IN JAPAN] WINNER LOGO LIGHT",
+                    "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/fe17e3b29b08ee5476fc363c8920baca.jpg",
+                    "icons": [
+                        "PRE_ORDER"
+                    ],
+                    "isPreOrder": true,
+                    "currencyCode": "USD",
+                    "originalPrice": 18.48,
+                    "salePrice": 18.48,
+                    "status": "SALE",
+                    "isDiscountDisplay": false,
+                    "saleDetailDeepLink": "weverse://shop/artists/38/sales/42980?shop=JP",
+                    "saleDetailWebLink": "https://shop.weverse.io/en/shop/USD/artists/38/sales/42980",
+                    "recoKey": "media_end/0-155788625",
+                    "logicNo": "RECENT"
+                },
+                {
+                    "saleId": 42978,
+                    "name": "[IN OUR CIRCLE IN JAPAN] ラバーキーリング",
+                    "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/e88d3194596d36ef4c534d457750bc7d.jpg",
+                    "icons": [
+                        "PRE_ORDER"
+                    ],
+                    "isPreOrder": true,
+                    "currencyCode": "USD",
+                    "originalPrice": 11.88,
+                    "salePrice": 11.88,
+                    "status": "SALE",
+                    "isDiscountDisplay": false,
+                    "saleDetailDeepLink": "weverse://shop/artists/38/sales/42978?shop=JP",
+                    "saleDetailWebLink": "https://shop.weverse.io/en/shop/USD/artists/38/sales/42978",
+                    "recoKey": "media_end/0-155788625",
+                    "logicNo": "RECENT"
+                },
+                {
+                    "saleId": 42977,
+                    "name": "[IN OUR CIRCLE IN JAPAN] フォトカード（ランダム全7種）",
+                    "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/2d8827f92c15a80ded466e9a2ff0b78b.jpg",
+                    "icons": [
+                        "PRE_ORDER"
+                    ],
+                    "isPreOrder": true,
+                    "currencyCode": "USD",
+                    "originalPrice": 3.96,
+                    "salePrice": 3.96,
+                    "status": "SALE",
+                    "isDiscountDisplay": false,
+                    "saleDetailDeepLink": "weverse://shop/artists/38/sales/42977?shop=JP",
+                    "saleDetailWebLink": "https://shop.weverse.io/en/shop/USD/artists/38/sales/42977",
+                    "recoKey": "media_end/0-155788625",
+                    "logicNo": "RECENT"
+                },
+                {
+                    "saleId": 42976,
+                    "name": "[IN OUR CIRCLE IN JAPAN] CDジャケット缶バッジ（ランダム全14種）",
+                    "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/97bbf5119d52649b4a753ccc5fb6fa30.jpg",
+                    "icons": [
+                        "PRE_ORDER"
+                    ],
+                    "isPreOrder": true,
+                    "currencyCode": "USD",
+                    "originalPrice": 3.96,
+                    "salePrice": 3.96,
+                    "status": "SALE",
+                    "isDiscountDisplay": false,
+                    "saleDetailDeepLink": "weverse://shop/artists/38/sales/42976?shop=JP",
+                    "saleDetailWebLink": "https://shop.weverse.io/en/shop/USD/artists/38/sales/42976",
+                    "recoKey": "media_end/0-155788625",
+                    "logicNo": "RECENT"
+                },
+                {
+                    "saleId": 42975,
+                    "name": "[IN OUR CIRCLE IN JAPAN] ネームチャーム（ランダム全9種）",
+                    "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/ea77eb18c25aec4ef1bafceb39a28939.jpg",
+                    "icons": [
+                        "PRE_ORDER"
+                    ],
+                    "isPreOrder": true,
+                    "currencyCode": "USD",
+                    "originalPrice": 5.28,
+                    "salePrice": 5.28,
+                    "status": "SALE",
+                    "isDiscountDisplay": false,
+                    "saleDetailDeepLink": "weverse://shop/artists/38/sales/42975?shop=JP",
+                    "saleDetailWebLink": "https://shop.weverse.io/en/shop/USD/artists/38/sales/42975",
+                    "recoKey": "media_end/0-155788625",
+                    "logicNo": "RECENT"
+                }
+            ]
+        }
+    },
+    "community": {
+        "communityId": 38,
+        "communityName": "WINNER",
+        "logoImage": "https://phinf.wevpstatic.net/MjAyMjA3MDhfNTEg/MDAxNjU3MjY4NTU5OTA1.IFS7t4tALad9oxgIRBvkLCtTCe_e81WzLoQsZymJCr8g.spQqGZBDc0hX5XBK31JziWm_eSTIDt1uSN9JrBfXUGcg.PNG/886575657676074b14db0cb-ad6c-420a-b9d3-050e2bc63f8b.png",
+        "artistCode": "WINNER",
+        "homeGradationColor": {
+            "upLeftColorCode": "#FFD8D8",
+            "upRightColorCode": "#F5929E",
+            "downLeftColorCode": "#FFD9D9",
+            "downRightColorCode": "#FFC9CE"
+        },
+        "gradationColor": {
+            "mainLeftColorCode": "#F5929E",
+            "mainRightColorCode": "#F5929E",
+            "subLeftColorCode": "#F5929E",
+            "subRightColorCode": "#F5929E",
+            "oldTabLeftColorCode": "#F5929E",
+            "oldTabRightColorCode": "#F5929E"
+        },
+        "communityColor": "#F5929E",
+        "availableActions": [
+            "WRITE_FAN_LETTER",
+            "WRITE_FAN_PARTY",
+            "UPLOAD_HD_VIDEO_AFTER_DIGITAL_MEMBERSHIP_PURCHASE",
+            "LEAVE_COMMUNITY",
+            "WRITE_FAN_POST",
+            "WRITE_POST"
+        ]
+    }
+}

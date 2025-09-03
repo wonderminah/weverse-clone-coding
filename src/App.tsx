@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "./index.css";
 import Home from './components/Home';
 import ArtistPedia from './components/ArtistPedia';
+import MediaPost from './components/MediaPost';
 import Header from './components/Header';
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/:artistName/artistpedia" element={<ArtistPedia />} />
+            <Route path="/:artistName/media/:postId" element={<MediaPost />} />
           </Routes>
         </Router>
       </div>
