@@ -1,6 +1,34 @@
 import "../index.css";
+import { useState, useEffect } from "react";
+import communityData from "../data/community.json";
+
+// 커뮤니티 데이터 타입 정의
+interface Community {
+  communityId: number;
+  communityName: string;
+  communityAlias: string;
+  urlPath: string;
+  logoImage: string;
+  homeHeaderImage: string;
+  memberCount: number;
+  lastArtistContentPublishedAt: number;
+}
 
 export default function Home() {
+  const [communities, setCommunities] = useState<Community[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // community.json 데이터를 가져와서 상태에 저장
+    try {
+      setCommunities(communityData as Community[]);
+      setLoading(false);
+    } catch (error) {
+      console.error("커뮤니티 데이터를 불러오는 중 오류가 발생했습니다:", error);
+      setLoading(false);
+    }
+  }, []);
+
   return (
     <>
       {/* 바디 */}
@@ -117,192 +145,39 @@ export default function Home() {
                   <h2 className="home__artist-title">Looking for new artists?</h2>
                   <div className="home__artist-body">
                     <ul className="home__artist-list">
-                      <li className="home__artist-item">
-                        <a className="home__artist-link" href="/">
-                          <div className="home__artist-cover-wrap">
-                            <img
-                              src="https://phinf.wevpstatic.net/MjAyMjExMzBfMjQx/MDAxNjY5Nzk4NzgzODIw.MArshwx42VZAp1IRPzJlklUoYK8sSRcD0p-JijkW4qAg.vkEIVFSt3wZxFWRrRV36j2obE-YkzzQyqW4OGFNZ5WQg.PNG/58664962789720092493d5ab0-a12f-4f74-bb27-99eae698c467.png?type=f416_354"
-                              width="208"
-                              height="177"
-                              className="HomeArtistListSlotView_cover_img__a2krk"
-                              alt=""
-                            ></img>
-                          </div>
-                          <div className="home__artist-thumb-wrap">
-                            <div className="home__artist-thumb-area">
+                      {communities.map((community) => (
+                        <li key={community.communityId} className="home__artist-item">
+                          <a className="home__artist-link" href={`/${community.urlPath}/artistpedia`}>
+                            <div className="home__artist-cover-wrap">
                               <img
-                                className="home__artist-thumb-img"
-                                src="https://phinf.wevpstatic.net/MjAyNDAzMjFfMTI4/MDAxNzEwOTk2NjE4OTQ3.pXrfj-rgBTxmYg6iR5Lm5JklltCrryboW44AKayfTKQg.SiiGWfT6MEzcZC0huWXJicArWxkIkwzvWHbWixvKivUg.JPEG/43632476398883003e3740686-8110-4084-b943-fbf323114c1e.jpg?type=s86"
-                                width="43"
-                                height="43"
-                                alt=""
+                                src={community.homeHeaderImage}
+                                width="208"
+                                height="177"
+                                className="HomeArtistListSlotView_cover_img__a2krk"
+                                alt={community.communityName}
                               ></img>
                             </div>
-                          </div>
-                          <div className="home__artist-text-wrap">
-                            <div>
-                              <strong className="home__artist-name">
-                                Artist Name
-                              </strong>
+                            <div className="home__artist-thumb-wrap">
+                              <div className="home__artist-thumb-area">
+                                <img
+                                  className="home__artist-thumb-img"
+                                  src={community.logoImage}
+                                  width="43"
+                                  height="43"
+                                  alt={community.communityName}
+                                ></img>
+                              </div>
                             </div>
-                          </div>
-                        </a>
-                      </li>
-                      <li className="home__artist-item">
-                        <a className="home__artist-link" href="/">
-                          <div className="home__artist-cover-wrap">
-                            <img
-                              src="https://phinf.wevpstatic.net/MjAyMjExMzBfMjQx/MDAxNjY5Nzk4NzgzODIw.MArshwx42VZAp1IRPzJlklUoYK8sSRcD0p-JijkW4qAg.vkEIVFSt3wZxFWRrRV36j2obE-YkzzQyqW4OGFNZ5WQg.PNG/58664962789720092493d5ab0-a12f-4f74-bb27-99eae698c467.png?type=f416_354"
-                              width="208"
-                              height="177"
-                              className="HomeArtistListSlotView_cover_img__a2krk"
-                              alt=""
-                            ></img>
-                          </div>
-                          <div className="home__artist-thumb-wrap">
-                            <div className="home__artist-thumb-area">
-                              <img
-                                className="home__artist-thumb-img"
-                                src="https://phinf.wevpstatic.net/MjAyNDAzMjFfMTI4/MDAxNzEwOTk2NjE4OTQ3.pXrfj-rgBTxmYg6iR5Lm5JklltCrryboW44AKayfTKQg.SiiGWfT6MEzcZC0huWXJicArWxkIkwzvWHbWixvKivUg.JPEG/43632476398883003e3740686-8110-4084-b943-fbf323114c1e.jpg?type=s86"
-                                width="43"
-                                height="43"
-                                alt=""
-                              ></img>
+                            <div className="home__artist-text-wrap">
+                              <div>
+                                <strong className="home__artist-name">
+                                  {community.communityName}
+                                </strong>
+                              </div>
                             </div>
-                          </div>
-                          <div className="home__artist-text-wrap">
-                            <div>
-                              <strong className="home__artist-name">
-                                Artist Name
-                              </strong>
-                            </div>
-                          </div>
-                        </a>
-                      </li>
-                      <li className="home__artist-item">
-                        <a className="home__artist-link" href="/">
-                          <div className="home__artist-cover-wrap">
-                            <img
-                              src="https://phinf.wevpstatic.net/MjAyMjExMzBfMjQx/MDAxNjY5Nzk4NzgzODIw.MArshwx42VZAp1IRPzJlklUoYK8sSRcD0p-JijkW4qAg.vkEIVFSt3wZxFWRrRV36j2obE-YkzzQyqW4OGFNZ5WQg.PNG/58664962789720092493d5ab0-a12f-4f74-bb27-99eae698c467.png?type=f416_354"
-                              width="208"
-                              height="177"
-                              className="HomeArtistListSlotView_cover_img__a2krk"
-                              alt=""
-                            ></img>
-                          </div>
-                          <div className="home__artist-thumb-wrap">
-                            <div className="home__artist-thumb-area">
-                              <img
-                                className="home__artist-thumb-img"
-                                src="https://phinf.wevpstatic.net/MjAyNDAzMjFfMTI4/MDAxNzEwOTk2NjE4OTQ3.pXrfj-rgBTxmYg6iR5Lm5JklltCrryboW44AKayfTKQg.SiiGWfT6MEzcZC0huWXJicArWxkIkwzvWHbWixvKivUg.JPEG/43632476398883003e3740686-8110-4084-b943-fbf323114c1e.jpg?type=s86"
-                                width="43"
-                                height="43"
-                                alt=""
-                              ></img>
-                            </div>
-                          </div>
-                          <div className="home__artist-text-wrap">
-                            <div>
-                              <strong className="home__artist-name">
-                                Artist Name
-                              </strong>
-                            </div>
-                          </div>
-                        </a>
-                      </li>
-                      <li className="home__artist-item">
-                        <a className="home__artist-link" href="/">
-                          <div className="home__artist-cover-wrap">
-                            <img
-                              src="https://phinf.wevpstatic.net/MjAyMjExMzBfMjQx/MDAxNjY5Nzk4NzgzODIw.MArshwx42VZAp1IRPzJlklUoYK8sSRcD0p-JijkW4qAg.vkEIVFSt3wZxFWRrRV36j2obE-YkzzQyqW4OGFNZ5WQg.PNG/58664962789720092493d5ab0-a12f-4f74-bb27-99eae698c467.png?type=f416_354"
-                              width="208"
-                              height="177"
-                              className="HomeArtistListSlotView_cover_img__a2krk"
-                              alt=""
-                            ></img>
-                          </div>
-                          <div className="home__artist-thumb-wrap">
-                            <div className="home__artist-thumb-area">
-                              <img
-                                className="home__artist-thumb-img"
-                                src="https://phinf.wevpstatic.net/MjAyNDAzMjFfMTI4/MDAxNzEwOTk2NjE4OTQ3.pXrfj-rgBTxmYg6iR5Lm5JklltCrryboW44AKayfTKQg.SiiGWfT6MEzcZC0huWXJicArWxkIkwzvWHbWixvKivUg.JPEG/43632476398883003e3740686-8110-4084-b943-fbf323114c1e.jpg?type=s86"
-                                width="43"
-                                height="43"
-                                alt=""
-                              ></img>
-                            </div>
-                          </div>
-                          <div className="home__artist-text-wrap">
-                            <div>
-                              <strong className="home__artist-name">
-                                Artist Name
-                              </strong>
-                            </div>
-                          </div>
-                        </a>
-                      </li>
-                      <li className="home__artist-item">
-                        <a className="home__artist-link" href="/">
-                          <div className="home__artist-cover-wrap">
-                            <img
-                              src="https://phinf.wevpstatic.net/MjAyMjExMzBfMjQx/MDAxNjY5Nzk4NzgzODIw.MArshwx42VZAp1IRPzJlklUoYK8sSRcD0p-JijkW4qAg.vkEIVFSt3wZxFWRrRV36j2obE-YkzzQyqW4OGFNZ5WQg.PNG/58664962789720092493d5ab0-a12f-4f74-bb27-99eae698c467.png?type=f416_354"
-                              width="208"
-                              height="177"
-                              className="HomeArtistListSlotView_cover_img__a2krk"
-                              alt=""
-                            ></img>
-                          </div>
-                          <div className="home__artist-thumb-wrap">
-                            <div className="home__artist-thumb-area">
-                              <img
-                                className="home__artist-thumb-img"
-                                src="https://phinf.wevpstatic.net/MjAyNDAzMjFfMTI4/MDAxNzEwOTk2NjE4OTQ3.pXrfj-rgBTxmYg6iR5Lm5JklltCrryboW44AKayfTKQg.SiiGWfT6MEzcZC0huWXJicArWxkIkwzvWHbWixvKivUg.JPEG/43632476398883003e3740686-8110-4084-b943-fbf323114c1e.jpg?type=s86"
-                                width="43"
-                                height="43"
-                                alt=""
-                              ></img>
-                            </div>
-                          </div>
-                          <div className="home__artist-text-wrap">
-                            <div>
-                              <strong className="home__artist-name">
-                                Artist Name
-                              </strong>
-                            </div>
-                          </div>
-                        </a>
-                      </li>
-                      <li className="home__artist-item">
-                        <a className="home__artist-link" href="/">
-                          <div className="home__artist-cover-wrap">
-                            <img
-                              src="https://phinf.wevpstatic.net/MjAyMjExMzBfMjQx/MDAxNjY5Nzk4NzgzODIw.MArshwx42VZAp1IRPzJlklUoYK8sSRcD0p-JijkW4qAg.vkEIVFSt3wZxFWRrRV36j2obE-YkzzQyqW4OGFNZ5WQg.PNG/58664962789720092493d5ab0-a12f-4f74-bb27-99eae698c467.png?type=f416_354"
-                              width="208"
-                              height="177"
-                              className="HomeArtistListSlotView_cover_img__a2krk"
-                              alt=""
-                            ></img>
-                          </div>
-                          <div className="home__artist-thumb-wrap">
-                            <div className="home__artist-thumb-area">
-                              <img
-                                className="home__artist-thumb-img"
-                                src="https://phinf.wevpstatic.net/MjAyNDAzMjFfMTI4/MDAxNzEwOTk2NjE4OTQ3.pXrfj-rgBTxmYg6iR5Lm5JklltCrryboW44AKayfTKQg.SiiGWfT6MEzcZC0huWXJicArWxkIkwzvWHbWixvKivUg.JPEG/43632476398883003e3740686-8110-4084-b943-fbf323114c1e.jpg?type=s86"
-                                width="43"
-                                height="43"
-                                alt=""
-                              ></img>
-                            </div>
-                          </div>
-                          <div className="home__artist-text-wrap">
-                            <div>
-                              <strong className="home__artist-name">
-                                Artist Name
-                              </strong>
-                            </div>
-                          </div>
-                        </a>
-                      </li>
+                          </a>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
