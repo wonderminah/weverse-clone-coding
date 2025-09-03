@@ -87,6 +87,10 @@ h6 {
   padding: 0;
 }
 
+body {
+  padding-top: 80px;
+}
+
 button {
   font-size: 13px;
   padding: 0;
