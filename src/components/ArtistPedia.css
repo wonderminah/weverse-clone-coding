@@ -1036,6 +1036,39 @@
     margin-top: 13px
 }
 
+
+.flicking-viewport {
+    overflow: hidden;
+    position: relative
+}
+
+.flicking-viewport.vertical {
+    display: inline-flex
+}
+
+.flicking-viewport.vertical>.flicking-camera {
+    display: inline-flex;
+    flex-direction: column
+}
+
+.flicking-viewport.flicking-hidden>.flicking-camera>* {
+    visibility: hidden
+}
+
+.flicking-camera {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    will-change: transform;
+    z-index: 1
+}
+
+.flicking-camera>* {
+    flex-shrink: 0
+}
+
 .PcArtistPediaNoticeLinkItemView_area__NRskk {
     align-items: center;
     display: flex
@@ -1185,6 +1218,15 @@
     background: no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASWSURBVHgB7ZyBdeM2DIaRvg7gDY6doN6g2uCywWmDeAN7g/gm8HWCphPYnSDuBNJN4GyAkk/yKwyRIinnmLP1f+/xhbFA2CYIEBJJEwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACU4oFuEGZe2D/GlmX/95O4/N2WN1uOrjw8PLwReH+sEYwta1v2nMerLTtbKgLX4zpyghFCNLbUBPJ5Z0PAMFOxHbWw5TnQkSePkdxrG+4MWPedLXnti4+9LYaAH+7miSbQcVUv06iRbjw6tAGW/evfPLqdjkcCl/SddvJ0ViVk1ur6Y0CXUbr26prPY9YEOgLG2HKX3p5lFnzpHbuIzpXSV6nrGxjFg2c0O1YeuVrJmATde/Z4ibi+5GGI/EJzhf1zRh2QfU31DtFGe8ki8TMsaY7wcJJdBeSMkqsS9bswd0rQr0Nm4zPeXcPDELQZkZUjvaEMlNH3I3KP6vM805xglb5GZPdCNilcibbS8Kexkc9dIiGZR+jizAmaL8NJ1j0Dd2FLUkVkvenyXcN56etSdWh2bFfvt4rI1rPyEh7GahORlx30ShPgy3kkGvKUl2ypIL9QeWTIOdj1ijYiL0fod5rGMaAvxFdRL3pf8hEG+SzqfybIG1FvaRptQF8I6RULLriWUtQg/ReTc8AhoZlcDWxpGtJDFrF5qF9lzPWqd6G0h8gvdkwIVw7ZeSnyPt5GdIb4R9QrKkRpgxhRT50PjKhPWh/3rKubhGbSQ36nQpQ2iPxiR8rnmg0LLeXRirqhQvxKZZGh4rON5X9kyDvcSiJNxCg9MeNevLebd0rsYCm6DYi7RySGbpPfEue8q/iItBeMUDpkSZd/seXfhDZyFe8rTZ9Hnuj/MPSN4kmFIXFTWMI7imND1ot4JLFJbJP8mCWiRz4OqRLkKyF/okKUDlmtqH+ifAxNJ/ehpLxnaqkQpQ0iU92K0mhF3dAEPHfmbUKz93iGlk1pgxxE3SSGIDlnTF1WNfKfxPlApuQvVIiiBuk7QnZwndBMTvyGpmFEPZoU9Gsgss2BCvERaa98whu7MXS0om5oGhfP0BLkV6Le3mWGdUZlL9GMRy1QTcp2VHa3jcjqfWI13Tsc2cCmZM21qS9fLuHWEdn1te93c3i8pI7ITx6xHoMuM2SzdrjcNMpLTmMjkS9DzjXbgHK2GzU8p6MKPNxNMraJbaWMl5z+cuKeLh6GqhXNDR7uvX0OyCXvrVLtdAh6DMg9pQ6Ou4eHJ6LWCXJJHaZGfROQ+aLev+E5n6ri4bkPx45VWOL8dFnvat95ZNZK5+hcNhvYfyRgMFKVTCxdXit9Rlxzg+AvjzGK7S756eHwUbPnc2fycNdjKLzphGEnrj2x/+gcjKHpR+7WYxTXYbveaHt1baV06FNRTf/amv0HSo+MMDUO+483yw7WuPCzCRjzxEOPOLMhkAZ33rDlH8Oe4RXTEIZp+DpOvZ6KfmJu6teA+s50N3duw12V0KS15W/q1jMOt/DLQDf580xnuMuMFqI42r684aeZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMb4D2F53J+3z/8eAAAAAElFTkSuQmCC) 0 0/contain;
     height: 50px;
     width: 50px
+}
+
+.ArtistPediaProfileImageView_image__8aUhn {
+    transition: all .1s ease-in-out;
+}
+
+.ArtistPediaProfileImageView_image__8aUhn:hover {
+    transform: scale(1.05);
+    transform-origin: 50% 50%
 }
 
 .PcArtistPediaOfficialRelatedLinks_wrapper__rITTG {
