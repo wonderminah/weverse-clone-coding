@@ -1,0 +1,1061 @@
+{
+    "basicInfo": {
+        "shareUrl": "https://weverse.io/winner/artistpedia",
+        "coverInfo": {
+            "type": "IMAGE",
+            "data": {
+                "width": 3300,
+                "height": 2190,
+                "url": "https://phinf.wevpstatic.net/MjAyMzA4MTBfMTE1/MDAxNjkxNjQxNzU4MjQ2.I2282NTtCbYSMFrSM-qlVe9e7o0mQZlydcLj-fiqnRYg.LMBmyUmWfdB2wvwlBgtcemk2aNRdUfnbg-uImBNb37Mg.JPEG/image.jpg"
+            }
+        },
+        "logoImage": {
+            "width": 4077,
+            "height": 540,
+            "url": "https://phinf.wevpstatic.net/MjAyMzA4MTBfMjMz/MDAxNjkxNjQzNTI0MDAz.I6fTzYMnUyl-5BnG9zBPx9BRc-WjQIeDdlrF8RhtdHkg.RO9OKrPnUzUZHYEiJw3IJIprxhLVvAaGZGnLQSesPsIg.PNG/image.png"
+        },
+        "community": {
+            "communityId": 38,
+            "communityName": "WINNER",
+            "homeHeaderImage": "https://phinf.wevpstatic.net/MjAyNDEwMTVfMTUy/MDAxNzI4OTcwODYxNzk0.xD5DPM2d81AobVoYNAKuTDdZOIYhICpdcndclzUUpk4g.u15jj96_LAYgr1I6DoDiVjbMbNetlObmlrlQvxIZUPwg.PNG/10396276972612604e168a967-77c8-42d8-aa21-9e00f83f995d.png",
+            "logoImage": "https://phinf.wevpstatic.net/MjAyMjA3MDhfNTEg/MDAxNjU3MjY4NTU5OTA1.IFS7t4tALad9oxgIRBvkLCtTCe_e81WzLoQsZymJCr8g.spQqGZBDc0hX5XBK31JziWm_eSTIDt1uSN9JrBfXUGcg.PNG/886575657676074b14db0cb-ad6c-420a-b9d3-050e2bc63f8b.png",
+            "urlPath": "winner",
+            "memberCount": 431605
+        },
+        "hasArtistInfo": false,
+        "artistProfiles": [
+            {
+                "memberId": "3ae9cc877db32203257f21329499164d",
+                "artistOfficialProfile": {
+                    "officialImageUrl": "https://phinf.wevpstatic.net/MjAyMjA3MDZfMjQ0/MDAxNjU3MDg0OTEzNDg2.EzTpaYX-guv9TOjN_GC_SIdnH8n9xcCdV98EVZSEDNsg.V2pB1CiR9vlKk0-HyIaNjaYQDj2G2NMfzV09r-PKY9Ig.PNG/a329c74c46fd4e29aad9e9f3a3f669b7911.png",
+                    "officialName": "YOON ",
+                    "birthday": {
+                        "dateString": "Jan 21, 1994",
+                        "bday": false
+                    }
+                },
+                "profileSpace": [
+                    "ACCESSIBLE"
+                ],
+                "profileSpaceStatus": "ACCESSIBLE"
+            },
+            {
+                "memberId": "57c0567ae4599e186215875b6f4c6136",
+                "artistOfficialProfile": {
+                    "officialImageUrl": "https://phinf.wevpstatic.net/MjAyMjA3MDZfMTM1/MDAxNjU3MDc1OTM0Nzgz.pqX9lybqbF7W8Z7R5_SEJXdZKi1WyTbcGX2M37jYMQAg.Tt9dCffXmjqVtLbkBjQpkk2_35SB8_yzDVjv-6gWIH8g.PNG/f4b91a041f9742728bf2593edb7609bf676.png",
+                    "officialName": "JINU",
+                    "birthday": {
+                        "dateString": "Sep 26, 1991",
+                        "bday": false
+                    }
+                },
+                "profileSpace": [
+                    "ACCESSIBLE"
+                ],
+                "profileSpaceStatus": "ACCESSIBLE"
+            },
+            {
+                "memberId": "9f20d36dfcd653f5b108a5de45ebeedc",
+                "artistOfficialProfile": {
+                    "officialImageUrl": "https://phinf.wevpstatic.net/MjAyMjA3MDZfMjI3/MDAxNjU3MDg0OTI0Mzc3.oEbKT-KinihVz4flu_JAP9OTjKoGAM4aOfH7OpnK7rkg.zbtLvrB3wPTY99lt7MxlLEiy4OKun62fdigPeHJQPnYg.PNG/c79227c3e16d41de95900a03158968a6590.png",
+                    "officialName": "MINO",
+                    "birthday": {
+                        "dateString": "Mar 30, 1993",
+                        "bday": false
+                    }
+                },
+                "profileSpace": [
+                    "ACCESSIBLE"
+                ],
+                "profileSpaceStatus": "ACCESSIBLE"
+            },
+            {
+                "memberId": "eae442f350fa798856eba453b8476f24",
+                "artistOfficialProfile": {
+                    "officialImageUrl": "https://phinf.wevpstatic.net/MjAyMjA3MDZfMjky/MDAxNjU3MDgyNTMxNDgw.NxUi4ihHeWNHl28qv14YHhfj2pXk8MEyA4PwgsLEzRUg.QOJHzhrCznxFz4588wvYa_18hdL5knWvQaDLkmM5Pckg.PNG/2fb8dfc441904f67866478189860325d207.png",
+                    "officialName": "HOONY",
+                    "birthday": {
+                        "dateString": "Jan 11, 1992",
+                        "bday": false
+                    }
+                },
+                "profileSpace": [
+                    "ACCESSIBLE"
+                ],
+                "profileSpaceStatus": "ACCESSIBLE"
+            }
+        ],
+        "siteInfos": [
+            {
+                "site": "YOUTUBE",
+                "appLink": {
+                    "type": "INAPP_BROWSER",
+                    "url": "https://m.youtube.com/OfficialYGWINNER"
+                },
+                "webLink": {
+                    "type": "INTERNAL_WEBLINK",
+                    "url": "https://www.youtube.com/OfficialYGWINNER"
+                }
+            },
+            {
+                "site": "INSTAGRAM",
+                "appLink": {
+                    "type": "INAPP_BROWSER",
+                    "url": "https://www.instagram.com/winnercity/"
+                },
+                "webLink": {
+                    "type": "INTERNAL_WEBLINK",
+                    "url": "https://www.instagram.com/winnercity/"
+                }
+            },
+            {
+                "site": "X",
+                "appLink": {
+                    "type": "INAPP_BROWSER",
+                    "url": "https://twitter.com/yginnercircle"
+                },
+                "webLink": {
+                    "type": "INTERNAL_WEBLINK",
+                    "url": "https://twitter.com/yginnercircle"
+                }
+            },
+            {
+                "site": "TIKTOK",
+                "appLink": {
+                    "type": "INAPP_BROWSER",
+                    "url": "https://www.tiktok.com/@wn_tiktok"
+                },
+                "webLink": {
+                    "type": "INTERNAL_WEBLINK",
+                    "url": "https://www.tiktok.com/@wn_tiktok"
+                }
+            },
+            {
+                "site": "OFFICIAL_SITE",
+                "appLink": {
+                    "type": "INAPP_BROWSER",
+                    "url": "https://www.ygfamily.com/ko/artists/winner/main"
+                },
+                "webLink": {
+                    "type": "INTERNAL_WEBLINK",
+                    "url": "https://www.ygfamily.com/ko/artists/winner/main"
+                }
+            }
+        ]
+    },
+    "cards": [
+        {
+            "viewType": "MEDIA_HORIZONTAL",
+            "title": "LIVE",
+            "data": {
+                "items": [
+                    {
+                        "extension": {
+                            "mediaInfo": {
+                                "mediaType": "VOD",
+                                "body": "어다 아픈데 없이 잘 지냈니?",
+                                "title": "오랜만이야",
+                                "chat": {
+                                    "availableActions": [
+                                        "READ_CHAT"
+                                    ],
+                                    "messageCount": 14372,
+                                    "exposureMessageCountPerSec": 7,
+                                    "chatType": "LIVE",
+                                    "chatId": "N1eddi",
+                                    "enable": false
+                                },
+                                "thumbnail": {
+                                    "type": "EXTRACT",
+                                    "width": 362,
+                                    "height": 640,
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTAyMTJfMjg2/MDAxNzM5MzYxMDIwMzg0.nZlJKUGMkjzjk5xIQrs_SnTKAXoi55tBCe0bNS4G5FIg.Vb4lQTZN1T3343_9dCHXAQXZGsPHHcfpq4M_VnFcgjMg.JPEG/thumb.jpg"
+                                },
+                                "exposeToMediaTab": false
+                            },
+                            "video": {
+                                "videoId": 77499,
+                                "type": "VOD",
+                                "onAirStartAt": 1739358021000,
+                                "paid": false,
+                                "membershipOnly": false,
+                                "screenOrientation": "PORTRAIT",
+                                "thumb": "https://phinf.wevpstatic.net/MjAyNTAyMTJfMjg2/MDAxNzM5MzYxMDIwMzg0.nZlJKUGMkjzjk5xIQrs_SnTKAXoi55tBCe0bNS4G5FIg.Vb4lQTZN1T3343_9dCHXAQXZGsPHHcfpq4M_VnFcgjMg.JPEG/thumb.jpg",
+                                "previewYn": false,
+                                "playCount": 34313,
+                                "likeCount": 389315,
+                                "streamingCount": 0,
+                                "liveToVod": true,
+                                "closedCaptioned": true,
+                                "captionBadges": [
+                                    "CC"
+                                ],
+                                "enhanceModes": [
+                                    {
+                                        "mode": "AUDIO_FILTER",
+                                        "action": "USE_VIDEO_AUDIO_FILTER",
+                                        "available": true
+                                    }
+                                ],
+                                "excludedEnhanceModes": [],
+                                "infraVideoId": "9C8588A22076F791FD459C7C5F97885BFB1D",
+                                "playTime": 2982,
+                                "encodingStatus": "COMPLETE",
+                                "pushYn": false,
+                                "exposeWithPost": false
+                            }
+                        },
+                        "title": "오랜만이야",
+                        "publishedAt": 1739358021000,
+                        "postType": "VIDEO",
+                        "sectionType": "LIVE",
+                        "availableActions": [
+                            "READ_POST",
+                            "WRITE_EMOTION"
+                        ],
+                        "postId": "0-155788625",
+                        "membershipOnly": false,
+                        "summary": {
+                            "videoCount": 1,
+                            "thumbnails": [
+                                {
+                                    "type": "VIDEO",
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTAyMTJfMjg2/MDAxNzM5MzYxMDIwMzg0.nZlJKUGMkjzjk5xIQrs_SnTKAXoi55tBCe0bNS4G5FIg.Vb4lQTZN1T3343_9dCHXAQXZGsPHHcfpq4M_VnFcgjMg.JPEG/thumb.jpg",
+                                    "playTime": 2982,
+                                    "width": 362,
+                                    "height": 640
+                                }
+                            ],
+                            "photoCount": 0,
+                            "snippets": []
+                        },
+                        "locked": false,
+                        "hasProduct": false,
+                        "community": {
+                            "communityId": 38,
+                            "communityName": "WINNER",
+                            "logoImage": "https://phinf.wevpstatic.net/MjAyMjA3MDhfNTEg/MDAxNjU3MjY4NTU5OTA1.IFS7t4tALad9oxgIRBvkLCtTCe_e81WzLoQsZymJCr8g.spQqGZBDc0hX5XBK31JziWm_eSTIDt1uSN9JrBfXUGcg.PNG/886575657676074b14db0cb-ad6c-420a-b9d3-050e2bc63f8b.png",
+                            "artistCode": "WINNER",
+                            "communityColor": "#F5929E"
+                        }
+                    },
+                    {
+                        "extension": {
+                            "mediaInfo": {
+                                "mediaType": "VOD",
+                                "body": "",
+                                "title": "Hi",
+                                "chat": {
+                                    "availableActions": [
+                                        "READ_CHAT"
+                                    ],
+                                    "messageCount": 18916,
+                                    "exposureMessageCountPerSec": 7,
+                                    "chatType": "LIVE",
+                                    "chatId": "N1ixQR",
+                                    "enable": false
+                                },
+                                "thumbnail": {
+                                    "type": "EXTRACT",
+                                    "width": 362,
+                                    "height": 640,
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTAzMjRfMTUx/MDAxNzQyODIxMzE0ODEz.4SXgSMZgGPtG0HeRyfDHSEcy8l_TNO0SU-KlljU5QGcg.wxKzne3RfYiOU_9lC3THudvQ3n9NXr8X8JslfgNOwX0g.JPEG/thumb.jpg"
+                                },
+                                "exposeToMediaTab": false
+                            },
+                            "video": {
+                                "videoId": 78438,
+                                "type": "VOD",
+                                "onAirStartAt": 1742814658000,
+                                "paid": false,
+                                "membershipOnly": false,
+                                "screenOrientation": "PORTRAIT",
+                                "thumb": "https://phinf.wevpstatic.net/MjAyNTAzMjRfMTUx/MDAxNzQyODIxMzE0ODEz.4SXgSMZgGPtG0HeRyfDHSEcy8l_TNO0SU-KlljU5QGcg.wxKzne3RfYiOU_9lC3THudvQ3n9NXr8X8JslfgNOwX0g.JPEG/thumb.jpg",
+                                "previewYn": false,
+                                "playCount": 30504,
+                                "likeCount": 385237,
+                                "streamingCount": 0,
+                                "liveToVod": true,
+                                "closedCaptioned": true,
+                                "captionBadges": [
+                                    "CC"
+                                ],
+                                "enhanceModes": [
+                                    {
+                                        "mode": "AUDIO_FILTER",
+                                        "action": "USE_VIDEO_AUDIO_FILTER",
+                                        "available": true
+                                    }
+                                ],
+                                "excludedEnhanceModes": [],
+                                "infraVideoId": "CE264999AA515BD98A3705125340168CF4E1",
+                                "playTime": 6638,
+                                "encodingStatus": "COMPLETE",
+                                "pushYn": false,
+                                "exposeWithPost": false
+                            }
+                        },
+                        "title": "Hi",
+                        "publishedAt": 1742814658000,
+                        "postType": "VIDEO",
+                        "sectionType": "LIVE",
+                        "availableActions": [
+                            "READ_POST",
+                            "WRITE_EMOTION"
+                        ],
+                        "postId": "4-195356918",
+                        "membershipOnly": false,
+                        "summary": {
+                            "videoCount": 1,
+                            "thumbnails": [
+                                {
+                                    "type": "VIDEO",
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTAzMjRfMTUx/MDAxNzQyODIxMzE0ODEz.4SXgSMZgGPtG0HeRyfDHSEcy8l_TNO0SU-KlljU5QGcg.wxKzne3RfYiOU_9lC3THudvQ3n9NXr8X8JslfgNOwX0g.JPEG/thumb.jpg",
+                                    "playTime": 6638,
+                                    "width": 362,
+                                    "height": 640
+                                }
+                            ],
+                            "photoCount": 0,
+                            "snippets": []
+                        },
+                        "locked": false,
+                        "hasProduct": false,
+                        "community": {
+                            "communityId": 38,
+                            "communityName": "WINNER",
+                            "logoImage": "https://phinf.wevpstatic.net/MjAyMjA3MDhfNTEg/MDAxNjU3MjY4NTU5OTA1.IFS7t4tALad9oxgIRBvkLCtTCe_e81WzLoQsZymJCr8g.spQqGZBDc0hX5XBK31JziWm_eSTIDt1uSN9JrBfXUGcg.PNG/886575657676074b14db0cb-ad6c-420a-b9d3-050e2bc63f8b.png",
+                            "artistCode": "WINNER",
+                            "communityColor": "#F5929E"
+                        }
+                    },
+                    {
+                        "extension": {
+                            "mediaInfo": {
+                                "mediaType": "VOD",
+                                "body": "",
+                                "title": "승승TV 시즌2 Ep.0 <제작 발표회>",
+                                "chat": {
+                                    "availableActions": [
+                                        "READ_CHAT"
+                                    ],
+                                    "messageCount": 4468,
+                                    "exposureMessageCountPerSec": 7,
+                                    "chatType": "LIVE",
+                                    "chatId": "N1pRXT",
+                                    "enable": false
+                                },
+                                "thumbnail": {
+                                    "type": "UPLOAD",
+                                    "width": 1141,
+                                    "height": 640,
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTA1MjdfMjAx/MDAxNzQ4MzQwMDczNDI4.xY4rae1QvB3uTnXXXcfalvheyb3R_bqwpWr661jEqy0g.e8m0nEK7d6qYAs7ZOwwlD8dxsM8sYM-6W_Psgf5FwrQg.JPEG/Weverse_d1799.jpg"
+                                },
+                                "exposeToMediaTab": false
+                            },
+                            "video": {
+                                "videoId": 79879,
+                                "type": "VOD",
+                                "onAirStartAt": 1748340083000,
+                                "paid": false,
+                                "membershipOnly": false,
+                                "screenOrientation": "LANDSCAPE",
+                                "thumb": "https://phinf.wevpstatic.net/MjAyNTA1MjdfMjYg/MDAxNzQ4MzQwMDczODA2.xQwPkkn_ZwbuI8kaifKxRtJPv0XVxnwc-eFrTE7M2Wkg.arjPO7h64fYkAKQ4zocY56HgWqg9CoOGcdMPt8N2MYYg.JPEG/Weverse_d1799.jpg",
+                                "previewYn": false,
+                                "playCount": 24715,
+                                "likeCount": 242058,
+                                "streamingCount": 0,
+                                "liveToVod": true,
+                                "closedCaptioned": true,
+                                "captionBadges": [
+                                    "CC"
+                                ],
+                                "enhanceModes": [
+                                    {
+                                        "mode": "AUDIO_FILTER",
+                                        "action": "USE_VIDEO_AUDIO_FILTER",
+                                        "available": true
+                                    }
+                                ],
+                                "excludedEnhanceModes": [],
+                                "infraVideoId": "4E6D59CD01E25E426A8FEF96A299E802FC1D",
+                                "playTime": 3083,
+                                "encodingStatus": "COMPLETE",
+                                "pushYn": false,
+                                "exposeWithPost": false
+                            }
+                        },
+                        "title": "승승TV 시즌2 Ep.0 <제작 발표회>",
+                        "publishedAt": 1748340083000,
+                        "postType": "VIDEO",
+                        "sectionType": "LIVE",
+                        "availableActions": [
+                            "READ_POST",
+                            "WRITE_EMOTION"
+                        ],
+                        "postId": "1-159638774",
+                        "membershipOnly": false,
+                        "summary": {
+                            "videoCount": 1,
+                            "thumbnails": [
+                                {
+                                    "type": "VIDEO",
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTA1MjdfMjAx/MDAxNzQ4MzQwMDczNDI4.xY4rae1QvB3uTnXXXcfalvheyb3R_bqwpWr661jEqy0g.e8m0nEK7d6qYAs7ZOwwlD8dxsM8sYM-6W_Psgf5FwrQg.JPEG/Weverse_d1799.jpg",
+                                    "playTime": 3083,
+                                    "width": 1141,
+                                    "height": 640
+                                }
+                            ],
+                            "photoCount": 0,
+                            "snippets": []
+                        },
+                        "locked": false,
+                        "hasProduct": false,
+                        "community": {
+                            "communityId": 38,
+                            "communityName": "WINNER",
+                            "logoImage": "https://phinf.wevpstatic.net/MjAyMjA3MDhfNTEg/MDAxNjU3MjY4NTU5OTA1.IFS7t4tALad9oxgIRBvkLCtTCe_e81WzLoQsZymJCr8g.spQqGZBDc0hX5XBK31JziWm_eSTIDt1uSN9JrBfXUGcg.PNG/886575657676074b14db0cb-ad6c-420a-b9d3-050e2bc63f8b.png",
+                            "artistCode": "WINNER",
+                            "communityColor": "#F5929E"
+                        }
+                    },
+                    {
+                        "extension": {
+                            "mediaInfo": {
+                                "mediaType": "VOD",
+                                "body": "",
+                                "title": "쇼쇽 라이브",
+                                "chat": {
+                                    "availableActions": [
+                                        "READ_CHAT"
+                                    ],
+                                    "messageCount": 6567,
+                                    "exposureMessageCountPerSec": 7,
+                                    "chatType": "LIVE",
+                                    "chatId": "N1gKuM",
+                                    "enable": false
+                                },
+                                "thumbnail": {
+                                    "type": "UPLOAD",
+                                    "width": 500,
+                                    "height": 282,
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTAyMjhfMjI3/MDAxNzQwNzM0MTAzMDk4.xSnBz244zdulJjJso0NTMlwvrUEEdSqHuEgrMDqFFoog.qjrMaet1F6Ayf4fv2ddxv8UCh2G_wlGR7QzTtW3sAAYg.JPEG/image.jpg"
+                                },
+                                "exposeToMediaTab": false
+                            },
+                            "video": {
+                                "videoId": 77856,
+                                "type": "VOD",
+                                "onAirStartAt": 1740734118000,
+                                "paid": false,
+                                "membershipOnly": false,
+                                "screenOrientation": "PORTRAIT",
+                                "thumb": "https://phinf.wevpstatic.net/MjAyNTAyMjhfODIg/MDAxNzQwNzM0MTAzNTI4.gZpjDBzokxbhLObXeBDmXUCMeERk4J9Z9AXThNddYasg.kusCDPY_ad8YHxAoavTsMLsgFi0kw4Y6qK2ucHuF3U8g.JPEG/image.jpg",
+                                "previewYn": false,
+                                "playCount": 21328,
+                                "likeCount": 190654,
+                                "streamingCount": 0,
+                                "liveToVod": true,
+                                "closedCaptioned": true,
+                                "captionBadges": [
+                                    "CC"
+                                ],
+                                "enhanceModes": [
+                                    {
+                                        "mode": "AUDIO_FILTER",
+                                        "action": "USE_VIDEO_AUDIO_FILTER",
+                                        "available": true
+                                    }
+                                ],
+                                "excludedEnhanceModes": [],
+                                "infraVideoId": "37F15ABFC13496F8E00EA70A8FFE5EA8348C",
+                                "playTime": 3029,
+                                "encodingStatus": "COMPLETE",
+                                "pushYn": false,
+                                "exposeWithPost": false
+                            }
+                        },
+                        "title": "쇼쇽 라이브",
+                        "publishedAt": 1740734118000,
+                        "postType": "VIDEO",
+                        "sectionType": "LIVE",
+                        "availableActions": [
+                            "READ_POST",
+                            "WRITE_EMOTION"
+                        ],
+                        "postId": "1-156438971",
+                        "membershipOnly": false,
+                        "summary": {
+                            "videoCount": 1,
+                            "thumbnails": [
+                                {
+                                    "type": "VIDEO",
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTAyMjhfMjI3/MDAxNzQwNzM0MTAzMDk4.xSnBz244zdulJjJso0NTMlwvrUEEdSqHuEgrMDqFFoog.qjrMaet1F6Ayf4fv2ddxv8UCh2G_wlGR7QzTtW3sAAYg.JPEG/image.jpg",
+                                    "playTime": 3029,
+                                    "width": 500,
+                                    "height": 282
+                                }
+                            ],
+                            "photoCount": 0,
+                            "snippets": []
+                        },
+                        "locked": false,
+                        "hasProduct": false,
+                        "community": {
+                            "communityId": 38,
+                            "communityName": "WINNER",
+                            "logoImage": "https://phinf.wevpstatic.net/MjAyMjA3MDhfNTEg/MDAxNjU3MjY4NTU5OTA1.IFS7t4tALad9oxgIRBvkLCtTCe_e81WzLoQsZymJCr8g.spQqGZBDc0hX5XBK31JziWm_eSTIDt1uSN9JrBfXUGcg.PNG/886575657676074b14db0cb-ad6c-420a-b9d3-050e2bc63f8b.png",
+                            "artistCode": "WINNER",
+                            "communityColor": "#F5929E"
+                        }
+                    },
+                    {
+                        "extension": {
+                            "mediaInfo": {
+                                "mediaType": "VOD",
+                                "body": "",
+                                "title": "승승TV 시즌2 Ep.1 <연습 전 입풀기 방송>",
+                                "chat": {
+                                    "availableActions": [
+                                        "READ_CHAT"
+                                    ],
+                                    "messageCount": 5491,
+                                    "exposureMessageCountPerSec": 7,
+                                    "chatType": "LIVE",
+                                    "chatId": "N1sArQ",
+                                    "enable": false
+                                },
+                                "thumbnail": {
+                                    "type": "UPLOAD",
+                                    "width": 1141,
+                                    "height": 640,
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTA2MjRfMjUx/MDAxNzUwNzU4OTQ0MTk2.wOmtrJOv5EcNcJZHjz55HIHom_vdd00N8157WhVuHdwg.spRvn8XwFGncDfLbukDa6YeqpEAmPey9KH31uyprusMg.JPEG/Weverse_a0c4c.jpg"
+                                },
+                                "exposeToMediaTab": false
+                            },
+                            "video": {
+                                "videoId": 80715,
+                                "type": "VOD",
+                                "onAirStartAt": 1750758954000,
+                                "paid": false,
+                                "membershipOnly": false,
+                                "screenOrientation": "LANDSCAPE",
+                                "thumb": "https://phinf.wevpstatic.net/MjAyNTA2MjRfOTEg/MDAxNzUwNzU4OTQ0Njk1.lgREgcVYOmKRzK6ptChAh0Udc-TnCOngEIoy6uG4XdUg.LJAYRjg3ww6kRgst6OxROrbl_8FqTK6gblzmXmano2kg.JPEG/Weverse_a0c4c.jpg",
+                                "previewYn": false,
+                                "playCount": 23019,
+                                "likeCount": 227436,
+                                "streamingCount": 0,
+                                "liveToVod": true,
+                                "closedCaptioned": true,
+                                "captionBadges": [
+                                    "CC"
+                                ],
+                                "enhanceModes": [
+                                    {
+                                        "mode": "AUDIO_FILTER",
+                                        "action": "USE_VIDEO_AUDIO_FILTER",
+                                        "available": true
+                                    }
+                                ],
+                                "excludedEnhanceModes": [],
+                                "infraVideoId": "53CBDA0EA8C28742009C5423E65CC08943CB",
+                                "playTime": 3918,
+                                "encodingStatus": "COMPLETE",
+                                "pushYn": false,
+                                "exposeWithPost": false
+                            }
+                        },
+                        "title": "승승TV 시즌2 Ep.1 <연습 전 입풀기 방송>",
+                        "publishedAt": 1750758954000,
+                        "postType": "VIDEO",
+                        "sectionType": "LIVE",
+                        "availableActions": [
+                            "READ_POST",
+                            "WRITE_EMOTION"
+                        ],
+                        "postId": "4-202599390",
+                        "membershipOnly": false,
+                        "summary": {
+                            "videoCount": 1,
+                            "thumbnails": [
+                                {
+                                    "type": "VIDEO",
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTA2MjRfMjUx/MDAxNzUwNzU4OTQ0MTk2.wOmtrJOv5EcNcJZHjz55HIHom_vdd00N8157WhVuHdwg.spRvn8XwFGncDfLbukDa6YeqpEAmPey9KH31uyprusMg.JPEG/Weverse_a0c4c.jpg",
+                                    "playTime": 3918,
+                                    "width": 1141,
+                                    "height": 640
+                                }
+                            ],
+                            "photoCount": 0,
+                            "snippets": []
+                        },
+                        "locked": false,
+                        "hasProduct": false,
+                        "community": {
+                            "communityId": 38,
+                            "communityName": "WINNER",
+                            "logoImage": "https://phinf.wevpstatic.net/MjAyMjA3MDhfNTEg/MDAxNjU3MjY4NTU5OTA1.IFS7t4tALad9oxgIRBvkLCtTCe_e81WzLoQsZymJCr8g.spQqGZBDc0hX5XBK31JziWm_eSTIDt1uSN9JrBfXUGcg.PNG/886575657676074b14db0cb-ad6c-420a-b9d3-050e2bc63f8b.png",
+                            "artistCode": "WINNER",
+                            "communityColor": "#F5929E"
+                        }
+                    },
+                    {
+                        "extension": {
+                            "mediaInfo": {
+                                "mediaType": "VOD",
+                                "body": "",
+                                "title": "승승TV 시즌2 Ep.3 <위너는 열한 살>",
+                                "chat": {
+                                    "availableActions": [
+                                        "READ_CHAT"
+                                    ],
+                                    "messageCount": 4992,
+                                    "exposureMessageCountPerSec": 7,
+                                    "chatType": "LIVE",
+                                    "chatId": "N1xUkC",
+                                    "enable": false
+                                },
+                                "thumbnail": {
+                                    "type": "UPLOAD",
+                                    "width": 1920,
+                                    "height": 1080,
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTA4MThfNDYg/MDAxNzU1NTE0NzU4MzE0.mm0BFile9U3-0ypavs0-f01wNFeO6byq-zNFo6tjZZ8g.G8jo9wNKNaScnrth0_3b7KSUxlOhjsab-_ugEYFw9usg.JPEG/0f70da9b-96e4-4f71-a43e-46a9d77b8066.jpeg"
+                                },
+                                "exposeToMediaTab": false
+                            },
+                            "video": {
+                                "videoId": 82108,
+                                "type": "VOD",
+                                "onAirStartAt": 1755417646000,
+                                "paid": false,
+                                "membershipOnly": false,
+                                "screenOrientation": "LANDSCAPE",
+                                "thumb": "https://phinf.wevpstatic.net/MjAyNTA4MThfNDYg/MDAxNzU1NTE0NzU4MzE0.mm0BFile9U3-0ypavs0-f01wNFeO6byq-zNFo6tjZZ8g.G8jo9wNKNaScnrth0_3b7KSUxlOhjsab-_ugEYFw9usg.JPEG/0f70da9b-96e4-4f71-a43e-46a9d77b8066.jpeg",
+                                "previewYn": false,
+                                "playCount": 22737,
+                                "likeCount": 344465,
+                                "streamingCount": 0,
+                                "liveToVod": true,
+                                "closedCaptioned": false,
+                                "captionBadges": [],
+                                "enhanceModes": [],
+                                "excludedEnhanceModes": [],
+                                "infraVideoId": "C48D4DBE109F5E61B2A91AB575D276BEF723",
+                                "playTime": 4678,
+                                "encodingStatus": "COMPLETE",
+                                "pushYn": false,
+                                "exposeWithPost": false
+                            }
+                        },
+                        "title": "승승TV 시즌2 Ep.3 <위너는 열한 살>",
+                        "publishedAt": 1755417646000,
+                        "postType": "VIDEO",
+                        "sectionType": "LIVE",
+                        "availableActions": [
+                            "READ_POST",
+                            "WRITE_EMOTION"
+                        ],
+                        "postId": "1-163042512",
+                        "membershipOnly": false,
+                        "summary": {
+                            "videoCount": 1,
+                            "thumbnails": [
+                                {
+                                    "type": "VIDEO",
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTA4MThfNDYg/MDAxNzU1NTE0NzU4MzE0.mm0BFile9U3-0ypavs0-f01wNFeO6byq-zNFo6tjZZ8g.G8jo9wNKNaScnrth0_3b7KSUxlOhjsab-_ugEYFw9usg.JPEG/0f70da9b-96e4-4f71-a43e-46a9d77b8066.jpeg",
+                                    "playTime": 4678,
+                                    "width": 1920,
+                                    "height": 1080
+                                }
+                            ],
+                            "photoCount": 0,
+                            "snippets": []
+                        },
+                        "locked": false,
+                        "hasProduct": false,
+                        "community": {
+                            "communityId": 38,
+                            "communityName": "WINNER",
+                            "logoImage": "https://phinf.wevpstatic.net/MjAyMjA3MDhfNTEg/MDAxNjU3MjY4NTU5OTA1.IFS7t4tALad9oxgIRBvkLCtTCe_e81WzLoQsZymJCr8g.spQqGZBDc0hX5XBK31JziWm_eSTIDt1uSN9JrBfXUGcg.PNG/886575657676074b14db0cb-ad6c-420a-b9d3-050e2bc63f8b.png",
+                            "artistCode": "WINNER",
+                            "communityColor": "#F5929E"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "viewType": "MEDIA_VERTICAL",
+            "title": "Media",
+            "data": {
+                "items": [
+                    {
+                        "extension": {
+                            "mediaInfo": {
+                                "mediaType": "IMAGE",
+                                "body": "오랜만이야 보고 싶었어\n우리 내일 또 보자 \uD83D\uDC99",
+                                "title": "2025 WINNER CONCERT [IN OUR CIRCLE] DAY 1 \uD83D\uDC99",
+                                "categories": [
+                                    {
+                                        "id": 524,
+                                        "type": "MEDIA",
+                                        "title": "For weverse"
+                                    }
+                                ],
+                                "thumbnail": {
+                                    "type": "EXTRACT",
+                                    "width": 4000,
+                                    "height": 2999,
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTA3MjZfNzIg/MDAxNzUzNDU2NjIyMjEy.uUnZbrg3cacecuNH3eiP18yOQF7YJrvfYTJpWVaVos4g.ReZbZplvlhhsequtfCGhKDaPxKslqXznbx9KGKvCOhAg.JPEG/700cc889-b812-494c-a5c9-5fbd038807b9.jpeg"
+                                },
+                                "exposeToMediaTab": false
+                            },
+                            "image": {
+                                "photos": [
+                                    {
+                                        "downloadable": true,
+                                        "width": 4000,
+                                        "url": "https://phinf.wevpstatic.net/MjAyNTA3MjZfNzIg/MDAxNzUzNDU2NjIyMjEy.uUnZbrg3cacecuNH3eiP18yOQF7YJrvfYTJpWVaVos4g.ReZbZplvlhhsequtfCGhKDaPxKslqXznbx9KGKvCOhAg.JPEG/700cc889-b812-494c-a5c9-5fbd038807b9.jpeg",
+                                        "height": 2999,
+                                        "photoId": "4-315369349"
+                                    }
+                                ],
+                                "viewType": "COLLAGE",
+                                "photoCount": 1
+                            }
+                        },
+                        "title": "2025 WINNER CONCERT [IN OUR CIRCLE] DAY 1 \uD83D\uDC99",
+                        "publishedAt": 1753457100000,
+                        "postType": "IMAGE",
+                        "sectionType": "MEDIA",
+                        "availableActions": [
+                            "READ_POST",
+                            "WRITE_EMOTION"
+                        ],
+                        "postId": "3-204957412",
+                        "membershipOnly": false,
+                        "summary": {
+                            "videoCount": 0,
+                            "thumbnails": [
+                                {
+                                    "type": "PHOTO",
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTA3MjZfNzIg/MDAxNzUzNDU2NjIyMjEy.uUnZbrg3cacecuNH3eiP18yOQF7YJrvfYTJpWVaVos4g.ReZbZplvlhhsequtfCGhKDaPxKslqXznbx9KGKvCOhAg.JPEG/700cc889-b812-494c-a5c9-5fbd038807b9.jpeg",
+                                    "width": 4000,
+                                    "height": 2999
+                                }
+                            ],
+                            "photoCount": 1,
+                            "snippets": []
+                        },
+                        "locked": false,
+                        "hasProduct": false,
+                        "community": {
+                            "communityId": 38,
+                            "communityName": "WINNER",
+                            "logoImage": "https://phinf.wevpstatic.net/MjAyMjA3MDhfNTEg/MDAxNjU3MjY4NTU5OTA1.IFS7t4tALad9oxgIRBvkLCtTCe_e81WzLoQsZymJCr8g.spQqGZBDc0hX5XBK31JziWm_eSTIDt1uSN9JrBfXUGcg.PNG/886575657676074b14db0cb-ad6c-420a-b9d3-050e2bc63f8b.png",
+                            "artistCode": "WINNER",
+                            "communityColor": "#F5929E"
+                        }
+                    },
+                    {
+                        "extension": {
+                            "mediaInfo": {
+                                "mediaType": "IMAGE",
+                                "body": "너무 행복하다!!!!!!!!!!",
+                                "title": "2025 WINNER CONCERT [IN OUR CIRCLE] DAY 2 \uD83D\uDC99",
+                                "categories": [
+                                    {
+                                        "id": 524,
+                                        "type": "MEDIA",
+                                        "title": "For weverse"
+                                    }
+                                ],
+                                "thumbnail": {
+                                    "type": "EXTRACT",
+                                    "width": 4000,
+                                    "height": 3000,
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTA3MjZfMjkw/MDAxNzUzNTM2NTQyNTI2.iQUJC6mC0IpWix_DHCqdHvxvJ2PHoTX5OsyFnRVCG4Ig.OVP-mZ-TSE5DPSprCwksOHAs54omct3bE-pyjB9IBmog.JPEG/6892a0fc-ea11-4fd0-9e10-33b047215f7c.jpeg"
+                                },
+                                "exposeToMediaTab": false
+                            },
+                            "image": {
+                                "photos": [
+                                    {
+                                        "downloadable": true,
+                                        "width": 4000,
+                                        "url": "https://phinf.wevpstatic.net/MjAyNTA3MjZfMjkw/MDAxNzUzNTM2NTQyNTI2.iQUJC6mC0IpWix_DHCqdHvxvJ2PHoTX5OsyFnRVCG4Ig.OVP-mZ-TSE5DPSprCwksOHAs54omct3bE-pyjB9IBmog.JPEG/6892a0fc-ea11-4fd0-9e10-33b047215f7c.jpeg",
+                                        "height": 3000,
+                                        "photoId": "1-295270911"
+                                    }
+                                ],
+                                "viewType": "COLLAGE",
+                                "photoCount": 1
+                            }
+                        },
+                        "title": "2025 WINNER CONCERT [IN OUR CIRCLE] DAY 2 \uD83D\uDC99",
+                        "publishedAt": 1753536600000,
+                        "postType": "IMAGE",
+                        "sectionType": "MEDIA",
+                        "availableActions": [
+                            "READ_POST",
+                            "WRITE_EMOTION"
+                        ],
+                        "postId": "4-205007818",
+                        "membershipOnly": false,
+                        "summary": {
+                            "videoCount": 0,
+                            "thumbnails": [
+                                {
+                                    "type": "PHOTO",
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTA3MjZfMjkw/MDAxNzUzNTM2NTQyNTI2.iQUJC6mC0IpWix_DHCqdHvxvJ2PHoTX5OsyFnRVCG4Ig.OVP-mZ-TSE5DPSprCwksOHAs54omct3bE-pyjB9IBmog.JPEG/6892a0fc-ea11-4fd0-9e10-33b047215f7c.jpeg",
+                                    "width": 4000,
+                                    "height": 3000
+                                }
+                            ],
+                            "photoCount": 1,
+                            "snippets": []
+                        },
+                        "locked": false,
+                        "hasProduct": false,
+                        "community": {
+                            "communityId": 38,
+                            "communityName": "WINNER",
+                            "logoImage": "https://phinf.wevpstatic.net/MjAyMjA3MDhfNTEg/MDAxNjU3MjY4NTU5OTA1.IFS7t4tALad9oxgIRBvkLCtTCe_e81WzLoQsZymJCr8g.spQqGZBDc0hX5XBK31JziWm_eSTIDt1uSN9JrBfXUGcg.PNG/886575657676074b14db0cb-ad6c-420a-b9d3-050e2bc63f8b.png",
+                            "artistCode": "WINNER",
+                            "communityColor": "#F5929E"
+                        }
+                    },
+                    {
+                        "extension": {
+                            "mediaInfo": {
+                                "mediaType": "IMAGE",
+                                "body": "귀요미들 등장✨\n(꼭 짱이 돼야지 꼭 짱이 돼서 \n인서 괴롭히는 사람 다 혼내줄거야)\n막뚱리더 승윤이와 신난 엉아들\uD83D\uDC99\n\n막공까지 끝! 인서와 위너는 패!밀리~\uD83E\uDEF6",
+                                "title": "2025 WINNER CONCERT [IN OUR CIRCLE] DAY 3 \uD83D\uDC99",
+                                "categories": [
+                                    {
+                                        "id": 524,
+                                        "type": "MEDIA",
+                                        "title": "For weverse"
+                                    }
+                                ],
+                                "thumbnail": {
+                                    "type": "EXTRACT",
+                                    "width": 4000,
+                                    "height": 3000,
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTA3MjdfMjg4/MDAxNzUzNjIwOTM2MDcw._49FC7CrEHdHE4RsgJdKwKN0ioBn3SYWIRY6qQYG4tEg.8eZoTAL8sLZ8Xrr0TkM4sq-OxQdaXQfsYzy5RE47N7Yg.JPEG/24de23d2-19a5-40d8-88d7-aa7af0a33e10.jpeg"
+                                },
+                                "exposeToMediaTab": false
+                            },
+                            "image": {
+                                "photos": [
+                                    {
+                                        "downloadable": true,
+                                        "width": 4000,
+                                        "url": "https://phinf.wevpstatic.net/MjAyNTA3MjdfMjg4/MDAxNzUzNjIwOTM2MDcw._49FC7CrEHdHE4RsgJdKwKN0ioBn3SYWIRY6qQYG4tEg.8eZoTAL8sLZ8Xrr0TkM4sq-OxQdaXQfsYzy5RE47N7Yg.JPEG/24de23d2-19a5-40d8-88d7-aa7af0a33e10.jpeg",
+                                        "height": 3000,
+                                        "photoId": "1-295293678"
+                                    }
+                                ],
+                                "viewType": "COLLAGE",
+                                "photoCount": 1
+                            }
+                        },
+                        "title": "2025 WINNER CONCERT [IN OUR CIRCLE] DAY 3 \uD83D\uDC99",
+                        "publishedAt": 1753621200000,
+                        "postType": "IMAGE",
+                        "sectionType": "MEDIA",
+                        "availableActions": [
+                            "READ_POST",
+                            "WRITE_EMOTION"
+                        ],
+                        "postId": "4-205069772",
+                        "membershipOnly": false,
+                        "summary": {
+                            "videoCount": 0,
+                            "thumbnails": [
+                                {
+                                    "type": "PHOTO",
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTA3MjdfMjg4/MDAxNzUzNjIwOTM2MDcw._49FC7CrEHdHE4RsgJdKwKN0ioBn3SYWIRY6qQYG4tEg.8eZoTAL8sLZ8Xrr0TkM4sq-OxQdaXQfsYzy5RE47N7Yg.JPEG/24de23d2-19a5-40d8-88d7-aa7af0a33e10.jpeg",
+                                    "width": 4000,
+                                    "height": 3000
+                                }
+                            ],
+                            "photoCount": 1,
+                            "snippets": []
+                        },
+                        "locked": false,
+                        "hasProduct": false,
+                        "community": {
+                            "communityId": 38,
+                            "communityName": "WINNER",
+                            "logoImage": "https://phinf.wevpstatic.net/MjAyMjA3MDhfNTEg/MDAxNjU3MjY4NTU5OTA1.IFS7t4tALad9oxgIRBvkLCtTCe_e81WzLoQsZymJCr8g.spQqGZBDc0hX5XBK31JziWm_eSTIDt1uSN9JrBfXUGcg.PNG/886575657676074b14db0cb-ad6c-420a-b9d3-050e2bc63f8b.png",
+                            "artistCode": "WINNER",
+                            "communityColor": "#F5929E"
+                        }
+                    },
+                    {
+                        "extension": {
+                            "mediaInfo": {
+                                "mediaType": "IMAGE",
+                                "body": "#WINNER #위너 #20250817 #WINNER11thANNIVERSARY #WITHINNERCIRCLE #YG",
+                                "title": "WINNER 11th Anniversary",
+                                "categories": [
+                                    {
+                                        "id": 524,
+                                        "type": "MEDIA",
+                                        "title": "For weverse"
+                                    }
+                                ],
+                                "thumbnail": {
+                                    "type": "EXTRACT",
+                                    "width": 1080,
+                                    "height": 1620,
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTA4MTRfNTQg/MDAxNzU1MTYwMzI2MjA0.IkYWpI9v5QHHNWcvVbgGMzcF8fdtwX3LvTPPcFh6cKQg.40HLUnLxJGdlJwAaYBccOHiB1vF9hunO2maOjY86V-kg.JPEG/fbd6e14c-a7fa-47d2-a1c5-70b3b0d8b8a0.jpeg"
+                                },
+                                "exposeToMediaTab": false
+                            },
+                            "image": {
+                                "photos": [
+                                    {
+                                        "downloadable": true,
+                                        "width": 1080,
+                                        "url": "https://phinf.wevpstatic.net/MjAyNTA4MTRfNTQg/MDAxNzU1MTYwMzI2MjA0.IkYWpI9v5QHHNWcvVbgGMzcF8fdtwX3LvTPPcFh6cKQg.40HLUnLxJGdlJwAaYBccOHiB1vF9hunO2maOjY86V-kg.JPEG/fbd6e14c-a7fa-47d2-a1c5-70b3b0d8b8a0.jpeg",
+                                        "height": 1620,
+                                        "photoId": "0-295858174"
+                                    }
+                                ],
+                                "viewType": "NORMAL",
+                                "photoCount": 1
+                            }
+                        },
+                        "title": "WINNER 11th Anniversary",
+                        "publishedAt": 1755356400000,
+                        "postType": "IMAGE",
+                        "sectionType": "MEDIA",
+                        "availableActions": [
+                            "READ_POST",
+                            "WRITE_EMOTION"
+                        ],
+                        "postId": "0-162936022",
+                        "membershipOnly": false,
+                        "summary": {
+                            "videoCount": 0,
+                            "thumbnails": [
+                                {
+                                    "type": "PHOTO",
+                                    "url": "https://phinf.wevpstatic.net/MjAyNTA4MTRfNTQg/MDAxNzU1MTYwMzI2MjA0.IkYWpI9v5QHHNWcvVbgGMzcF8fdtwX3LvTPPcFh6cKQg.40HLUnLxJGdlJwAaYBccOHiB1vF9hunO2maOjY86V-kg.JPEG/fbd6e14c-a7fa-47d2-a1c5-70b3b0d8b8a0.jpeg",
+                                    "width": 1080,
+                                    "height": 1620
+                                }
+                            ],
+                            "photoCount": 1,
+                            "snippets": []
+                        },
+                        "locked": false,
+                        "hasProduct": false,
+                        "community": {
+                            "communityId": 38,
+                            "communityName": "WINNER",
+                            "logoImage": "https://phinf.wevpstatic.net/MjAyMjA3MDhfNTEg/MDAxNjU3MjY4NTU5OTA1.IFS7t4tALad9oxgIRBvkLCtTCe_e81WzLoQsZymJCr8g.spQqGZBDc0hX5XBK31JziWm_eSTIDt1uSN9JrBfXUGcg.PNG/886575657676074b14db0cb-ad6c-420a-b9d3-050e2bc63f8b.png",
+                            "artistCode": "WINNER",
+                            "communityColor": "#F5929E"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "viewType": "PRODUCT_HORIZONTAL",
+            "title": "Merch",
+            "data": {
+                "shopUrl": "https://shop.weverse.io/en/shop/USD/artists/38",
+                "items": [
+                    {
+                        "saleId": 34130,
+                        "name": "INNER CIRCLE MEMBERSHIP",
+                        "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/f88cb19a128fb6c28f39fecde222d99c.png",
+                        "icons": [],
+                        "isPreOrder": false,
+                        "currencyCode": "USD",
+                        "originalPrice": 19.67,
+                        "salePrice": 19.67,
+                        "status": "SALE",
+                        "isDiscountDisplay": false,
+                        "saleDetailDeepLink": "weverse://shop/artists/38/sales/34130?shop=GL",
+                        "saleDetailWebLink": "https://shop.weverse.io/en/shop/USD/artists/38/sales/34130"
+                    },
+                    {
+                        "saleId": 28542,
+                        "name": "INNER CIRCLE MEMBERSHIP KIT",
+                        "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/834f660785b97cb20901109defa59e2e.png",
+                        "icons": [
+                            "MEMBERSHIP_ONLY",
+                            "ONLY"
+                        ],
+                        "isPreOrder": false,
+                        "currencyCode": "USD",
+                        "originalPrice": 16.52,
+                        "salePrice": 16.52,
+                        "status": "SALE",
+                        "isDiscountDisplay": false,
+                        "saleDetailDeepLink": "weverse://shop/artists/38/sales/28542?shop=GL",
+                        "saleDetailWebLink": "https://shop.weverse.io/en/shop/USD/artists/38/sales/28542"
+                    },
+                    {
+                        "saleId": 15563,
+                        "name": "[YOURGREEN] WINNER RE-CYCLED DIY PEN POUCH",
+                        "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/3f5f0c37fb88eb2f22a66c709b7ef054.png",
+                        "icons": [
+                            "ONLY"
+                        ],
+                        "isPreOrder": false,
+                        "currencyCode": "USD",
+                        "originalPrice": 28.33,
+                        "salePrice": 28.33,
+                        "status": "SALE",
+                        "isDiscountDisplay": false,
+                        "saleDetailDeepLink": "weverse://shop/artists/38/sales/15563?shop=GL",
+                        "saleDetailWebLink": "https://shop.weverse.io/en/shop/USD/artists/38/sales/15563"
+                    },
+                    {
+                        "saleId": 8954,
+                        "name": "単品[HOLIDAY](DIGIPACK ver.)",
+                        "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/d2725f5d8253e9bdbd0ad9e6bba521af.png",
+                        "icons": [],
+                        "isPreOrder": false,
+                        "currencyCode": "USD",
+                        "originalPrice": 11.61,
+                        "salePrice": 11.61,
+                        "status": "SALE",
+                        "isDiscountDisplay": false,
+                        "saleDetailDeepLink": "weverse://shop/artists/38/sales/8954?shop=JP",
+                        "saleDetailWebLink": "https://shop.weverse.io/en/shop/USD/artists/38/sales/8954"
+                    }
+                ]
+            }
+        },
+        {
+            "viewType": "NOTICE",
+            "title": "Notice",
+            "data": {
+                "items": [
+                    {
+                        "title": "[안내] WINNER 11th Anniversary MEET&GREET : ‘위너는 열한 살’ 안내",
+                        "noticeType": "COMMUNITY",
+                        "noticeId": 29280
+                    },
+                    {
+                        "title": "[Notice] WINNER turns 11✏️ : To My Buddy WINNER\uD83D\uDC8C",
+                        "noticeType": "COMMUNITY",
+                        "noticeId": 29253
+                    },
+                    {
+                        "title": "[EVENT] WINNER 11th ANNIVERSARY Weverse EVENT Notice",
+                        "noticeType": "COMMUNITY",
+                        "noticeId": 29210
+                    }
+                ]
+            }
+        }
+    ]
+}
